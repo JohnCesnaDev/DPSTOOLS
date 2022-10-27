@@ -44,10 +44,9 @@ export function create(/* { ... } */) {
           return;
         } // handle
         console.log(result);
+        res.json(result);
       });
     });
-
-    res.json(result);
   });
 
   // place here any middlewares that
