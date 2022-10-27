@@ -31,24 +31,20 @@ export function create(/* { ... } */) {
 
   const odbc = require('odbc');
 
-  const pool = odbc.pool('DSN=HFSQL', (error, pool) => {
-    if (error) {
-      console.error(error);
-    } else {
-      console.log('connecter: ' + pool);
-    }
-  });
-
   app.get('/BC:id', (req, res) => {
     const id = req.params.id;
-    console.log('id');
-    console.log('SELECT ${id} FROM BC');
+    console.log(parseInt(id));
 
-    pool.query('SELECT * FROM BC=2330', (error, result) => {
-      if (error) {
-        console.error(error);
-      }
-      console.log(result);
+    odbc.pool('DSN=HFSQL', (error1, pool) => {
+      if (error1) {
+        return;
+      } // handle
+      pool.query('SELECT * FROM BC where COBC=2330', (error2, result) => {
+        if (error2) {
+          return;
+        } // handle
+        console.log(result);
+      });
     });
 
     res.json(result);
