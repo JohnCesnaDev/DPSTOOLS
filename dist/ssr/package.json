@@ -1,0 +1,30 @@
+{
+  "name": "stackblitz-quasar-v2-vite",
+  "version": "0.0.1",
+  "description": "A Quasar CLI with Vite starter project.",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@quasar/extras": "1.13.5",
+    "axios": "^1.1.3",
+    "cors": "2.8.5",
+    "odbc": "2.4.6",
+    "quasar": "2.6.4",
+    "vue": "3.2.31",
+    "vue-html-to-paper": "1.4.4",
+    "vue-router": "4.0.14",
+    "compression": "^1.7.4",
+    "express": "^4.17.3",
+    "serialize-javascript": "^6.0.0"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "quasar": {
+    "ssr": true
+  }
+}
