@@ -31,7 +31,13 @@ export function create(/* { ... } */) {
 
   const odbc = require('odbc');
 
-  const pool = odbc.pool('DSN=HFSQL', (error, pool) => {});
+  const pool = odbc.pool('DSN=HFSQL', (error, pool) => {
+    if (error) {
+      console.error(error);
+    } else {
+      console.log('connecter: ' + pool);
+    }
+  });
 
   app.get('/BC:id', (req, res) => {
     const id = req.params.id;
