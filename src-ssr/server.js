@@ -44,7 +44,7 @@ export function create(/* { ... } */) {
           return;
         } // handle
         console.log(result);
-        res.json(result);
+        res = result;
       });
     });
   });
