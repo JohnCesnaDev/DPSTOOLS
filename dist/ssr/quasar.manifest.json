@@ -390,487 +390,487 @@
     "/assets/flUhRq6tzZclQEJ-Vdg-IuiaDsNa.450e40b0.woff"
   ],
   "node_modules/axios/lib/helpers/bind.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/utils.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/core/AxiosError.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/form-data/lib/browser.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/helpers/toFormData.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/helpers/AxiosURLSearchParams.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/helpers/buildURL.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/core/InterceptorManager.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/defaults/transitional.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/platform/browser/classes/URLSearchParams.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/platform/browser/classes/FormData.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/platform/browser/index.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/helpers/toURLEncodedForm.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/helpers/formDataToJSON.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/core/settle.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/helpers/cookies.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/helpers/isAbsoluteURL.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/helpers/combineURLs.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/core/buildFullPath.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/helpers/isURLSameOrigin.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/cancel/CanceledError.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/helpers/parseProtocol.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/helpers/parseHeaders.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/core/AxiosHeaders.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/helpers/speedometer.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/adapters/xhr.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/adapters/index.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/defaults/index.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/core/transformData.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/cancel/isCancel.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/core/dispatchRequest.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/core/mergeConfig.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/env/data.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/helpers/validator.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/core/Axios.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/cancel/CancelToken.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/helpers/spread.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/helpers/isAxiosError.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/axios/lib/axios.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "src/boot/axios.js": [
-    "/assets/axios.70ac2247.js"
+    "/assets/axios.66eab194.js"
   ],
   "node_modules/quasar/src/composables/private/use-can-render.js": [
-    "/assets/MainLayout.31219f8d.js"
+    "/assets/MainLayout.0e840517.js"
   ],
   "node_modules/quasar/src/components/resize-observer/QResizeObserver.js": [
-    "/assets/MainLayout.31219f8d.js"
+    "/assets/MainLayout.0e840517.js"
   ],
   "node_modules/quasar/src/components/header/QHeader.js": [
-    "/assets/MainLayout.31219f8d.js"
+    "/assets/MainLayout.0e840517.js"
   ],
   "node_modules/quasar/src/utils/private/touch.js": [
-    "/assets/MainLayout.31219f8d.js"
+    "/assets/MainLayout.0e840517.js"
   ],
   "node_modules/quasar/src/directives/TouchPan.js": [
-    "/assets/MainLayout.31219f8d.js"
+    "/assets/MainLayout.0e840517.js"
   ],
   "node_modules/quasar/src/components/drawer/QDrawer.js": [
-    "/assets/MainLayout.31219f8d.js"
+    "/assets/MainLayout.0e840517.js"
   ],
   "node_modules/quasar/src/components/page/QPageContainer.js": [
-    "/assets/MainLayout.31219f8d.js"
+    "/assets/MainLayout.0e840517.js"
   ],
   "node_modules/quasar/src/components/scroll-observer/QScrollObserver.js": [
-    "/assets/MainLayout.31219f8d.js"
+    "/assets/MainLayout.0e840517.js"
   ],
   "node_modules/quasar/src/components/layout/QLayout.js": [
-    "/assets/MainLayout.31219f8d.js"
+    "/assets/MainLayout.0e840517.js"
   ],
   "src/components/EssentialLink.vue": [
-    "/assets/MainLayout.31219f8d.js"
+    "/assets/MainLayout.0e840517.js"
   ],
   "src/layouts/MainLayout.vue": [
-    "/assets/MainLayout.31219f8d.js"
+    "/assets/MainLayout.0e840517.js"
   ],
   "node_modules/quasar/src/composables/private/use-size.js": [
-    "/assets/QBtn.95cc568b.js"
+    "/assets/QBtn.b4e4efab.js"
   ],
   "node_modules/quasar/src/components/icon/QIcon.js": [
-    "/assets/QBtn.95cc568b.js"
+    "/assets/QBtn.b4e4efab.js"
   ],
   "node_modules/quasar/src/components/spinner/use-spinner.js": [
-    "/assets/QBtn.95cc568b.js"
+    "/assets/QBtn.b4e4efab.js"
   ],
   "node_modules/quasar/src/components/spinner/QSpinner.js": [
-    "/assets/QBtn.95cc568b.js"
+    "/assets/QBtn.b4e4efab.js"
   ],
   "node_modules/quasar/src/utils/dom.js": [
-    "/assets/QBtn.95cc568b.js"
+    "/assets/QBtn.b4e4efab.js"
   ],
   "node_modules/quasar/src/utils/throttle.js": [
-    "/assets/QBtn.95cc568b.js"
+    "/assets/QBtn.b4e4efab.js"
   ],
   "node_modules/quasar/src/directives/Ripple.js": [
-    "/assets/QBtn.95cc568b.js"
+    "/assets/QBtn.b4e4efab.js"
   ],
   "node_modules/quasar/src/composables/private/use-align.js": [
-    "/assets/QBtn.95cc568b.js"
+    "/assets/QBtn.b4e4efab.js"
   ],
   "node_modules/quasar/src/utils/private/vm.js": [
-    "/assets/QBtn.95cc568b.js"
+    "/assets/QBtn.b4e4efab.js"
   ],
   "node_modules/quasar/src/composables/private/use-router-link.js": [
-    "/assets/QBtn.95cc568b.js"
+    "/assets/QBtn.b4e4efab.js"
   ],
   "node_modules/quasar/src/components/btn/use-btn.js": [
-    "/assets/QBtn.95cc568b.js"
+    "/assets/QBtn.b4e4efab.js"
   ],
   "node_modules/quasar/src/components/btn/QBtn.js": [
-    "/assets/QBtn.95cc568b.js"
+    "/assets/QBtn.b4e4efab.js"
   ],
   "node_modules/quasar/src/components/toolbar/QToolbarTitle.js": [
-    "/assets/format.bace913d.js"
+    "/assets/format.92a858e1.js"
   ],
   "node_modules/quasar/src/components/toolbar/QToolbar.js": [
-    "/assets/format.bace913d.js"
+    "/assets/format.92a858e1.js"
   ],
   "node_modules/quasar/src/composables/private/use-dark.js": [
-    "/assets/format.bace913d.js"
+    "/assets/format.92a858e1.js"
   ],
   "node_modules/quasar/src/utils/format.js": [
-    "/assets/format.bace913d.js"
+    "/assets/format.92a858e1.js"
   ],
   "node_modules/quasar/src/components/item/QItemLabel.js": [
-    "/assets/QItem.6bfa063b.js"
+    "/assets/QItem.ce58fda8.js"
   ],
   "node_modules/quasar/src/components/item/QList.js": [
-    "/assets/QItem.6bfa063b.js"
+    "/assets/QItem.ce58fda8.js"
   ],
   "node_modules/quasar/src/composables/private/use-history.js": [
-    "/assets/QItem.6bfa063b.js"
+    "/assets/QItem.ce58fda8.js"
   ],
   "node_modules/quasar/src/composables/private/use-model-toggle.js": [
-    "/assets/QItem.6bfa063b.js"
+    "/assets/QItem.ce58fda8.js"
   ],
   "node_modules/quasar/src/utils/scroll.js": [
-    "/assets/QItem.6bfa063b.js"
+    "/assets/QItem.ce58fda8.js"
   ],
   "node_modules/quasar/src/utils/prevent-scroll.js": [
-    "/assets/QItem.6bfa063b.js"
+    "/assets/QItem.ce58fda8.js"
   ],
   "node_modules/quasar/src/composables/private/use-prevent-scroll.js": [
-    "/assets/QItem.6bfa063b.js"
+    "/assets/QItem.ce58fda8.js"
   ],
   "node_modules/quasar/src/composables/private/use-timeout.js": [
-    "/assets/QItem.6bfa063b.js"
+    "/assets/QItem.ce58fda8.js"
   ],
   "node_modules/quasar/src/utils/private/selection.js": [
-    "/assets/QItem.6bfa063b.js"
+    "/assets/QItem.ce58fda8.js"
   ],
   "node_modules/quasar/src/components/item/QItemSection.js": [
-    "/assets/QItem.6bfa063b.js"
+    "/assets/QItem.ce58fda8.js"
   ],
   "node_modules/quasar/src/components/item/QItem.js": [
-    "/assets/QItem.6bfa063b.js"
+    "/assets/QItem.ce58fda8.js"
   ],
   "node_modules/quasar/src/utils/private/create.js": [
-    "/assets/render.96116371.js"
+    "/assets/render.27ee874d.js"
   ],
   "node_modules/quasar/src/utils/private/render.js": [
-    "/assets/render.96116371.js"
+    "/assets/render.27ee874d.js"
   ],
   "src/pages/IndexPage.vue": [
-    "/assets/IndexPage.2017aa5b.js"
+    "/assets/IndexPage.14f8a277.js"
   ],
   "node_modules/quasar/src/components/page/QPage.js": [
-    "/assets/QPage.a1ba69d5.js"
+    "/assets/QPage.108d4407.js"
   ],
   "src/pages/AchatPage.vue": [
-    "/assets/AchatPage.ee89903b.js"
+    "/assets/AchatPage.6fcc7b35.js"
   ],
   "node_modules/quasar/src/composables/use-form-child.js": [
-    "/assets/QCard.fca5f02f.js"
+    "/assets/QCard.540987af.js"
   ],
   "node_modules/quasar/src/utils/patterns.js": [
-    "/assets/QCard.fca5f02f.js"
+    "/assets/QCard.540987af.js"
   ],
   "node_modules/quasar/src/utils/extend.js": [
-    "/assets/QCard.fca5f02f.js"
+    "/assets/QCard.540987af.js"
   ],
   "node_modules/quasar/src/components/circular-progress/use-circular-progress.js": [
-    "/assets/QCard.fca5f02f.js"
+    "/assets/QCard.540987af.js"
   ],
   "node_modules/quasar/src/components/circular-progress/QCircularProgress.js": [
-    "/assets/QCard.fca5f02f.js"
+    "/assets/QCard.540987af.js"
   ],
   "node_modules/quasar/src/composables/private/use-file.js": [
-    "/assets/QCard.fca5f02f.js"
+    "/assets/QCard.540987af.js"
   ],
   "node_modules/quasar/src/components/uploader/uploader-core.js": [
-    "/assets/QCard.fca5f02f.js"
+    "/assets/QCard.540987af.js"
   ],
   "node_modules/quasar/src/utils/private/get-emits-object.js": [
-    "/assets/QCard.fca5f02f.js"
+    "/assets/QCard.540987af.js"
   ],
   "node_modules/quasar/src/utils/create-uploader-component.js": [
-    "/assets/QCard.fca5f02f.js"
+    "/assets/QCard.540987af.js"
   ],
   "node_modules/quasar/src/utils/uid.js": [
-    "/assets/QCard.fca5f02f.js"
+    "/assets/QCard.540987af.js"
   ],
   "node_modules/quasar/src/composables/private/use-validate.js": [
-    "/assets/QCard.fca5f02f.js"
+    "/assets/QCard.540987af.js"
   ],
   "node_modules/quasar/src/composables/private/use-split-attrs.js": [
-    "/assets/QCard.fca5f02f.js"
+    "/assets/QCard.540987af.js"
   ],
   "node_modules/quasar/src/utils/private/focus-manager.js": [
-    "/assets/QCard.fca5f02f.js"
+    "/assets/QCard.540987af.js"
   ],
   "node_modules/quasar/src/composables/private/use-field.js": [
-    "/assets/QCard.fca5f02f.js"
+    "/assets/QCard.540987af.js"
   ],
   "node_modules/quasar/src/components/input/use-mask.js": [
-    "/assets/QCard.fca5f02f.js"
+    "/assets/QCard.540987af.js"
   ],
   "node_modules/quasar/src/composables/private/use-form.js": [
-    "/assets/QCard.fca5f02f.js"
+    "/assets/QCard.540987af.js"
   ],
   "node_modules/quasar/src/composables/private/use-file-dom-props.js": [
-    "/assets/QCard.fca5f02f.js"
+    "/assets/QCard.540987af.js"
   ],
   "node_modules/quasar/src/composables/private/use-key-composition.js": [
-    "/assets/QCard.fca5f02f.js"
+    "/assets/QCard.540987af.js"
   ],
   "node_modules/quasar/src/components/input/QInput.js": [
-    "/assets/QCard.fca5f02f.js"
+    "/assets/QCard.540987af.js"
   ],
   "node_modules/quasar/src/components/card/QCard.js": [
-    "/assets/QCard.fca5f02f.js"
+    "/assets/QCard.540987af.js"
   ],
   "node_modules/quasar/src/components/table/QTh.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/separator/QSeparator.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/markup-table/QMarkupTable.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/table/get-table-middle.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/virtual-scroll/use-virtual-scroll.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/virtual-scroll/QVirtualScroll.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/field/QField.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/chip/QChip.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/composables/private/use-anchor.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/composables/private/use-scroll-target.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/utils/private/global-nodes.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/utils/private/portal.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/composables/private/use-portal.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/composables/private/use-transition.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/composables/private/use-tick.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/utils/private/escape-key.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/utils/private/focusout.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/utils/private/click-outside.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/utils/private/position-engine.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/menu/QMenu.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/dialog/QDialog.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/select/QSelect.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/linear-progress/QLinearProgress.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/composables/private/use-refocus-target.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/utils/private/option-sizes.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/checkbox/use-checkbox.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/checkbox/QCheckbox.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/composables/private/use-fullscreen.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/utils/private/sort.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/table/table-sort.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/table/table-filter.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/table/table-pagination.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/table/table-row-selection.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/table/table-row-expand.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/table/table-column-selection.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/table/QTable.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/table/QTd.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/table/QTr.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/card/QCardSection.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/card/QCardActions.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/directives/ClosePopup.js": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "src/pages/TubePage.vue?vue&type=style&index=0&lang.sass": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "src/pages/TubePage.vue": [
-    "/assets/TubePage.392abb19.js",
+    "/assets/TubePage.8f7d0eb8.js",
     "/assets/TubePage.60dcbd4d.css"
   ],
   "src/pages/ErrorNotFound.vue": [
-    "/assets/ErrorNotFound.143d326c.js"
+    "/assets/ErrorNotFound.8e3a0dfb.js"
   ]
 }
