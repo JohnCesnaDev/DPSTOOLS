@@ -34,21 +34,25 @@ export function create(/* { ... } */) {
   app.get('/BC:id', (req, res) => {
     const id = req.params.id;
     console.log(parseInt(id));
-
+    console.time('obdc');
     odbc.pool('DSN=HFSQL', (error1, pool) => {
       if (error1) {
         return;
       } // handle
-      console.time('sqlTimer');
-      pool.query('SELECT * FROM BC where COBC=2330', (error2, result) => {
-        console.timeEnd('sqlTimer');
-        if (error2) {
-          return;
-        } // handle
-        console.log(result);
-        res = result;
-      });
+      console.time('query');
+      pool.query(
+        'SELECT ART FROM DETAILBC where COBC=2330',
+        (error2, result) => {
+          if (error2) {
+            return;
+          } // handle
+          console.log(result);
+          res = result;
+        }
+      );
+      console.timeEnd('query');
     });
+    console.timeEnd('obdc');
   });
 
   // place here any middlewares that
