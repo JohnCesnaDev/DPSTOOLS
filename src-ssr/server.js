@@ -34,7 +34,7 @@ export function create(/* { ... } */) {
   app.get('/BC:id', (req, res) => {
     const id = req.params.id;
     console.log(parseInt(id));
-
+    var startTime = performance.now();
     odbc.pool('DSN=HFSQL', (error1, pool) => {
       if (error1) {
         return;
@@ -47,6 +47,8 @@ export function create(/* { ... } */) {
         res = result;
       });
     });
+    var endTime = performance.now();
+    console.log(endTime - startTime);
   });
 
   // place here any middlewares that
