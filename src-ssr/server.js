@@ -48,7 +48,7 @@ export function create(/* { ... } */) {
       });
     });
     var endTime = performance.now();
-    console.log(endTime - startTime);
+    console.log('time= ' + (endTime - startTime));
   });
 
   // place here any middlewares that
