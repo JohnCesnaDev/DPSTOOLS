@@ -39,7 +39,7 @@ export function create(/* { ... } */) {
       if (error1) {
         return;
       } // handle
-      var startTime = performance.now();
+      console.time('sqlTimer');
       pool.query('SELECT * FROM BC where COBC=2330', (error2, result) => {
         if (error2) {
           return;
@@ -47,8 +47,7 @@ export function create(/* { ... } */) {
         console.log(result);
         res = result;
       });
-      var endTime = performance.now();
-      console.log('time= ' + (endTime - startTime));
+      console.timeEnd('sqlTimer');
     });
   });
 
