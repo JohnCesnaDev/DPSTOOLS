@@ -41,7 +41,7 @@ export function create(/* { ... } */) {
       } // handle
       console.time('query');
       pool.query(
-        'SELECT COBC,ART,DESA1,DESA2,DESA3,QTE FROM DETAILBC where COBC=2330 LEFT JOIN BC ON DETAILBC.COBC = DETAILBC.COBC',
+        'SELECT COBC,ART,DESA1,DESA2,DESA3,QTE FROM DETAILBC LEFT JOIN BC ON DETAILBC.COBC=2330 and DETAILBC.COBC = DETAILBC.COBC',
         (error2, result) => {
           if (error2) {
             return;
