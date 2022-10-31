@@ -41,13 +41,13 @@ export function create(/* { ... } */) {
       } // handle
       console.time('sqlTimer');
       pool.query('SELECT * FROM BC where COBC=2330', (error2, result) => {
+        console.timeEnd('sqlTimer');
         if (error2) {
           return;
         } // handle
         console.log(result);
         res = result;
       });
-      console.timeEnd('sqlTimer');
     });
   });
 
