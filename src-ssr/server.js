@@ -35,6 +35,7 @@ export function create(/* { ... } */) {
     const id = req.params.id;
     console.log(parseInt(id));
     var startTime = performance.now();
+    console.log(startTime);
     odbc.pool('DSN=HFSQL', (error1, pool) => {
       if (error1) {
         return;
@@ -49,6 +50,7 @@ export function create(/* { ... } */) {
     });
     var endTime = performance.now();
     console.log('time= ' + (endTime - startTime));
+    console.log(endTime);
   });
 
   // place here any middlewares that
