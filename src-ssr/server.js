@@ -44,8 +44,7 @@ export function create(/* { ... } */) {
         console.time('query');
         console.log(id);
         const result = pool.query(
-          'SELECT COFOU,NAF,COCLI,ART,DESA1,DESA2,DESA3,QTE FROM DETAILBC LEFT JOIN BC ON DETAILBC.COBC = BC.COBC where BC.COBC=' +
-            id,
+          'SELECT COFOU,NAF,COCLI,ART,DESA1,DESA2,DESA3,QTE FROM DETAILBC LEFT JOIN BC ON DETAILBC.COBC = BC.COBC where BC.COBC=2330',
           (error2, result) => {
             if (error2) {
               console.log(error2);
