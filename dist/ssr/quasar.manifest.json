@@ -637,15 +637,15 @@
   ],
   "node_modules/quasar/src/components/inner-loading/QInnerLoading.js": [
     "/assets/AchatPage.8b0ca43f.js",
-    "/assets/AchatPage.2d86f3de.css"
+    "/assets/TubePage.60dcbd4d.css"
   ],
   "src/pages/AchatPage.vue?vue&type=style&index=0&lang.sass": [
     "/assets/AchatPage.8b0ca43f.js",
-    "/assets/AchatPage.2d86f3de.css"
+    "/assets/TubePage.60dcbd4d.css"
   ],
   "src/pages/AchatPage.vue": [
     "/assets/AchatPage.8b0ca43f.js",
-    "/assets/AchatPage.2d86f3de.css"
+    "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/composables/use-form-child.js": [
     "/assets/QTable.bbe53de5.js"
@@ -817,31 +817,31 @@
   ],
   "node_modules/quasar/src/components/table/QTd.js": [
     "/assets/TubePage.7d3c4c02.js",
-    "/assets/AchatPage.2d86f3de.css"
+    "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/table/QTr.js": [
     "/assets/TubePage.7d3c4c02.js",
-    "/assets/AchatPage.2d86f3de.css"
+    "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/card/QCardSection.js": [
     "/assets/TubePage.7d3c4c02.js",
-    "/assets/AchatPage.2d86f3de.css"
+    "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/card/QCardActions.js": [
     "/assets/TubePage.7d3c4c02.js",
-    "/assets/AchatPage.2d86f3de.css"
+    "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/directives/ClosePopup.js": [
     "/assets/TubePage.7d3c4c02.js",
-    "/assets/AchatPage.2d86f3de.css"
+    "/assets/TubePage.60dcbd4d.css"
   ],
   "src/pages/TubePage.vue?vue&type=style&index=0&lang.sass": [
     "/assets/TubePage.7d3c4c02.js",
-    "/assets/AchatPage.2d86f3de.css"
+    "/assets/TubePage.60dcbd4d.css"
   ],
   "src/pages/TubePage.vue": [
     "/assets/TubePage.7d3c4c02.js",
-    "/assets/AchatPage.2d86f3de.css"
+    "/assets/TubePage.60dcbd4d.css"
   ],
   "src/pages/ErrorNotFound.vue": [
     "/assets/ErrorNotFound.5a82fee8.js"

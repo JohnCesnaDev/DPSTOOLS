@@ -42,6 +42,7 @@ export function create(/* { ... } */) {
           return;
         } // handle
         console.time('query');
+        console.log(id);
         const result = pool.query(
           'SELECT COFOU,NAF,COCLI,ART,DESA1,DESA2,DESA3,QTE FROM DETAILBC LEFT JOIN BC ON DETAILBC.COBC = BC.COBC where BC.COBC=' +
             id,
