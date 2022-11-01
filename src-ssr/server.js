@@ -31,7 +31,7 @@ export function create(/* { ... } */) {
 
   const odbc = require('odbc');
 
-  app.get('/BC:id', (req, res) => {
+  app.get('/BC', (req, res) => {
     const id = req.params.id;
     console.log(parseInt(id));
     console.time('obdc');
