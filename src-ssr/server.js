@@ -36,24 +36,26 @@ export function create(/* { ... } */) {
     console.log(id);
     console.log(parseInt(id));
     console.time('obdc');
-    odbc.pool('DSN=HFSQL', (error1, pool) => {
-      if (error1) {
-        return;
-      } // handle
-      console.time('query');
-      const result = pool.query(
-        'SELECT COFOU,NAF,COCLI,ART,DESA1,DESA2,DESA3,QTE FROM DETAILBC LEFT JOIN BC ON DETAILBC.COBC = BC.COBC where BC.COBC=' +
-          id,
-        (error2, result) => {
-          if (error2) {
-            console.log(error2);
-          } // handle
-          res.end(JSON.stringify(result));
-        }
-      );
-      console.timeEnd('query');
-    });
-    console.timeEnd('obdc');
+    if (id !== null) {
+      odbc.pool('DSN=HFSQL', (error1, pool) => {
+        if (error1) {
+          return;
+        } // handle
+        console.time('query');
+        const result = pool.query(
+          'SELECT COFOU,NAF,COCLI,ART,DESA1,DESA2,DESA3,QTE FROM DETAILBC LEFT JOIN BC ON DETAILBC.COBC = BC.COBC where BC.COBC=' +
+            id,
+          (error2, result) => {
+            if (error2) {
+              console.log(error2);
+            } // handle
+            res.end(JSON.stringify(result));
+          }
+        );
+        console.timeEnd('query');
+      });
+      console.timeEnd('obdc');
+    }
   });
 
   // place here any middlewares that
