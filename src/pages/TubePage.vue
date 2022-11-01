@@ -176,9 +176,7 @@
 </template>
 
 <script setup>
-import { parseStringStyle } from '@vue/shared';
 import { ref } from 'vue';
-import { stringifyQuery } from 'vue-router';
 
 //var parametre longueur barre
 const longueur = ref(0);

@@ -46,12 +46,9 @@ export function create(/* { ... } */) {
           if (error2) {
             console.log(error2);
           } // handle
-          //console.log(result);
-          return result;
+          res.end(JSON.stringify(result));
         }
       );
-      console.log(result);
-      res = JSON.stringify(result);
       console.timeEnd('query');
     });
     console.timeEnd('obdc');
