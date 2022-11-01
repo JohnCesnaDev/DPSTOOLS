@@ -32,9 +32,7 @@ export function create(/* { ... } */) {
   const odbc = require('odbc');
 
   app.get('/BC', (req, res) => {
-    const id = req.query.id;
-    console.log(id);
-    console.log(parseInt(id));
+    const id = parseInt(req.query.id);
     console.time('obdc');
     if (id !== null) {
       odbc.pool('DSN=HFSQL', (error1, pool) => {
@@ -43,13 +41,14 @@ export function create(/* { ... } */) {
         } // handle
         console.time('query');
         const result = pool.query(
-          'SELECT COFOU,NAF,COCLI,ART,DESA1,DESA2,DESA3,QTE FROM DETAILBC LEFT JOIN BC ON DETAILBC.COBC = BC.COBC where BC.COBC=2330',
+          'SELECT COFOU,NAF,COCLI,ART,DESA1,DESA2,DESA3,QTE FROM DETAILBC LEFT JOIN BC ON DETAILBC.COBC = BC.COBC where BC.COBC=' +
+            id,
           (error2, result) => {
             if (error2) {
               console.log(error2);
             } // handle
             //res.end(JSON.stringify(result));
-            console.log(result);
+            res.end(toJson(result));
           }
         );
         console.timeEnd('query');
@@ -57,6 +56,14 @@ export function create(/* { ... } */) {
       console.timeEnd('obdc');
     }
   });
+
+  function toJson(data) {
+    if (data !== undefined) {
+      return JSON.stringify(data, (_, v) =>
+        typeof v === 'bigint' ? `${v}#bigint` : v
+      ).replace(/"(-?\d+)#bigint"/g, (_, a) => a);
+    }
+  }
 
   // place here any middlewares that
   // absolutely need to run before anything else
