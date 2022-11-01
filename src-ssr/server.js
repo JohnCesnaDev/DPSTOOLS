@@ -40,16 +40,17 @@ export function create(/* { ... } */) {
         return;
       } // handle
       console.time('query');
-      pool.query(
+      const result = pool.query(
         'SELECT COFOU,COCLI,ART,DESA1,DESA2,DESA3,QTE FROM DETAILBC LEFT JOIN BC ON DETAILBC.COBC = BC.COBC where BC.COBC=2330',
         (error2, result) => {
           if (error2) {
-            return;
+            console.log(error2);
           } // handle
           console.log(result);
-          res = result;
+          return result;
         }
       );
+      res = JSON.stringify(result);
       console.timeEnd('query');
     });
     console.timeEnd('obdc');
