@@ -46,10 +46,11 @@ export function create(/* { ... } */) {
           if (error2) {
             console.log(error2);
           } // handle
-          console.log(result);
+          //console.log(result);
           return result;
         }
       );
+      console.log(result);
       res = JSON.stringify(result);
       console.timeEnd('query');
     });
