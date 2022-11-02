@@ -13,6 +13,7 @@
               label="longueur"
               stack-label
               v-model="longueur"
+              @focus="clearL"
             ></q-input>
             <q-input
               outlined
@@ -20,6 +21,7 @@
               label="nombre"
               stack-label
               v-model="nombre"
+              @focus="clearN"
             ></q-input>
             <q-btn @click="Add" color="primary" label="Ajouter" />
             <q-btn @click="PrintElem" color="primary" label="Imprimer" />
@@ -294,7 +296,10 @@ function Calcul() {
             (element) => element.longueur == coupe
           );
           if (found === undefined) {
-            temprows[pos].debit.push({ longueur: coupe, quantite: 1 });
+            temprows[pos].debit.push({
+              longueur: element.longueur,
+              quantite: 1,
+            });
           } else {
             found.quantite++;
           }
@@ -302,7 +307,7 @@ function Calcul() {
         } else {
           temprows.push({
             barres: 0,
-            debit: [{ longueur: coupe, quantite: 1 }],
+            debit: [{ longueur: element.longueur, quantite: 1 }],
             debitstring: '',
             chute: longueurbarre.value - coupe,
           });
@@ -384,6 +389,13 @@ function PrintElem() {
   WinPrint.focus();
 
   return true;
+}
+
+function clearL() {
+  longueur.value = '';
+}
+function clearN() {
+  nombre.value = '';
 }
 
 //event clavier

@@ -120,99 +120,6 @@ const columns = [
   },
 ];
 
-const data1 = [
-  {
-    COFOU: 'CHRON',
-    COCLI: '     ',
-    NAF: 36205,
-    ART: 'PRECADRE BALCON11111111111111111',
-    DESA1: 'RAL 7016 SAT111111111111111111',
-    DESA2: '111111111111111111111111111111',
-    DESA3: '111111111111111111111111111111',
-    QTE: 2,
-  },
-  {
-    COFOU: 'CHRON',
-    COCLI: '     ',
-    NAF: 36206,
-    ART: 'PRECADRE SIMPLE ETROIT        ',
-    DESA1: 'RAL 7004 MAT                  ',
-    DESA2: '                              ',
-    DESA3: '                              ',
-    QTE: 5,
-  },
-  {
-    COFOU: 'CHRON',
-    COCLI: '     ',
-    NAF: 36207,
-    ART: 'PRECADRE SIMPLE ETROIT        ',
-    DESA1: 'RAL 7016 SAT                  ',
-    DESA2: '                              ',
-    DESA3: '                              ',
-    QTE: 8,
-  },
-  {
-    COFOU: 'CHRON',
-    COCLI: '     ',
-    NAF: 36208,
-    ART: 'PRECADRE DOUBLE  2/3          ',
-    DESA1: 'RAL 7016 SAT                  ',
-    DESA2: '                              ',
-    DESA3: '                              ',
-    QTE: 2,
-  },
-  {
-    COFOU: 'CHRON',
-    COCLI: '     ',
-    NAF: 36208,
-    ART: 'PRECADRE SIMPLE               ',
-    DESA1: 'RAL 7004 MAT                  ',
-    DESA2: '                              ',
-    DESA3: '                              ',
-    QTE: 2,
-  },
-  {
-    COFOU: 'CHRON',
-    COCLI: '     ',
-    NAF: 36209,
-    ART: 'PRECADRE SIMPLE               ',
-    DESA1: 'RAL 7016 SAT                  ',
-    DESA2: '                              ',
-    DESA3: '                              ',
-    QTE: 4,
-  },
-  {
-    COFOU: 'CHRON',
-    COCLI: '     ',
-    NAF: 36210,
-    ART: 'PRECADRE DOUBLE               ',
-    DESA1: 'RAL 7016 SAT                  ',
-    DESA2: '                              ',
-    DESA3: '                              ',
-    QTE: 20,
-  },
-  {
-    COFOU: 'CHRON',
-    COCLI: '     ',
-    NAF: 36211,
-    ART: 'PRECADRE BALCON               ',
-    DESA1: 'RAL 7004 MAT                  ',
-    DESA2: '                              ',
-    DESA3: '                              ',
-    QTE: 2,
-  },
-  {
-    COFOU: 'CHRON',
-    COCLI: '     ',
-    NAF: 36212,
-    ART: 'PRECADRE JDB                  ',
-    DESA1: 'RAL                           ',
-    DESA2: '                              ',
-    DESA3: '                              ',
-    QTE: 10,
-  },
-];
-
 function find() {
   // GET request for remote image in node.js
   const idBC = BC.value;
@@ -234,11 +141,13 @@ function find() {
 }
 
 //event clavier
+/*
 function onKey(evt) {
   if (evt.keyCode === 13) {
     find();
   }
 }
+*/
 </script>
 
 <style lang="sass">

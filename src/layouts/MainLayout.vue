@@ -13,7 +13,7 @@
 
         <q-toolbar-title>DPS Tools</q-toolbar-title>
 
-        <div>V0.0.1</div>
+        <div>V0.0.2</div>
       </q-toolbar>
     </q-header>
 
