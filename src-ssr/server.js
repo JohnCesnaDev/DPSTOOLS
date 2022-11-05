@@ -35,6 +35,7 @@ export function create(/* { ... } */) {
     const BC = parseInt(req.query.BC);
     const AFF = parseInt(req.query.AFF);
 
+    console.log(req.query);
     console.log('bc = ' + BC);
     console.log('aff = ' + AFF);
 
