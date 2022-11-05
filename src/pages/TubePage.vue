@@ -293,7 +293,7 @@ function Calcul() {
 
         if (pos != -1) {
           const found = temprows[pos].debit.find(
-            (element) => element.longueur == coupe
+            (element1) => element1.longueur == element.longueur
           );
           if (found === undefined) {
             temprows[pos].debit.push({
@@ -318,7 +318,7 @@ function Calcul() {
     temprows.forEach((element) => {
       element.debit.forEach((element1) => {
         element.debitstring +=
-          element1.quantite + 'x' + element1.longueur + ' | ';
+          '( ' + element1.quantite + 'x' + element1.longueur + ' ) ';
       });
     });
 

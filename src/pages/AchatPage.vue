@@ -78,6 +78,13 @@ const columns = [
     field: (row) => row.COFOU,
   },
   {
+    name: 'cobc',
+    required: true,
+    align: 'left',
+    label: 'Commande Fournisseur',
+    field: 'COBC',
+  },
+  {
     name: 'naf',
     required: true,
     align: 'left',
