@@ -133,12 +133,9 @@ function find() {
   // GET request for remote image in node.js
   const paramsBC = BC.value;
   const paramsAFF = AFF.value;
-
   if (
-    AFF.value != '' ||
-    AFF.value != undefined ||
-    BC.value != '' ||
-    BC.value != undefined
+    (AFF.value != '' && AFF.value != undefined) ||
+    (BC.value != '' && BC.value != undefined)
   ) {
     api
       .get('/BC', {

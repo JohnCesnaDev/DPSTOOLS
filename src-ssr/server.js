@@ -36,17 +36,17 @@ export function create(/* { ... } */) {
     const AFF = parseInt(req.query.AFF);
 
     console.log('bc = ' + BC);
-    console.log('aff = ' + BC);
+    console.log('aff = ' + AFF);
 
-    if (BC !== null || AFF !== null) {
+    if (BC || AFF) {
       odbc.pool('DSN=HFSQL', (error1, pool) => {
         if (error1) {
           return;
         } // handle
 
-        if (BC != '' && BC != null) {
+        if (BC) {
           console.log('BC ok');
-        } else if (AFF != '' && AFF != null) {
+        } else if (AFF) {
           console.log('AFF ok');
         }
 
