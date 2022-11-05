@@ -35,10 +35,6 @@ export function create(/* { ... } */) {
     const BC = parseInt(req.query.BC);
     const AFF = parseInt(req.query.AFF);
 
-    console.log(req.query);
-    console.log('bc = ' + BC);
-    console.log('aff = ' + AFF);
-
     if (BC || AFF) {
       odbc.pool('DSN=HFSQL', (error1, pool) => {
         if (error1) {
@@ -46,49 +42,18 @@ export function create(/* { ... } */) {
         } // handle
 
         if (BC) {
-          console.log('BC ok');
+          const result = pool.query(
+            'SELECT COFOU,NAF,COCLI,ART,DESA1,DESA2,DESA3,QTE FROM DETAILBC LEFT JOIN BC ON DETAILBC.COBC = BC.COBC where BC.COBC=' +
+              BC,
+            (error2, result) => {
+              if (error2) {
+                console.log(error2);
+              } // handle
+              //res.end(JSON.stringify(result));
+              res.end(toJson(result));
+            }
+          );
         } else if (AFF) {
-          console.log('AFF ok');
-        }
-
-        /*
-        const result = pool.query(
-          'SELECT COFOU,NAF,COCLI,ART,DESA1,DESA2,DESA3,QTE FROM DETAILBC LEFT JOIN BC ON DETAILBC.COBC = BC.COBC where BC.COBC=' +
-            BC,
-          (error2, result) => {
-            if (error2) {
-              console.log(error2);
-            } // handle
-            //res.end(JSON.stringify(result));
-            res.end(toJson(result));
-          }
-        );
-        */
-      });
-    }
-  });
-
-  app.get('/BCAFF', (req, res) => {
-    const id = parseInt(req.query.id);
-
-    if (id !== null) {
-      odbc.pool('DSN=HFSQL', (error1, pool) => {
-        let COBC1 = -1;
-        if (error1) {
-          return;
-        } // handle
-        //recuperation commande client pour recherche commande achat
-        pool.query(
-          'SELECT COBC FROM DETAILBC where NAF = ' + id,
-          (error2, result) => {
-            if (error2) {
-              console.log(error2);
-            } // handle
-            COBC1 = result;
-          }
-        );
-
-        if (commande != -1) {
           pool.query(
             'SELECT COFOU,NAF,COCLI,ART,DESA1,DESA2,DESA3,QTE FROM DETAILBC LEFT JOIN BC ON DETAILBC.COBC = BC.COBC where BC.COBC= (SELECT COBC FROM DETAILBC where NAF = ' +
               id +
