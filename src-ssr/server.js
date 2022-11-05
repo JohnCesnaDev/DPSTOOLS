@@ -32,17 +32,28 @@ export function create(/* { ... } */) {
   const odbc = require('odbc');
 
   app.get('/BC', (req, res) => {
-    const id = parseInt(req.query.id);
-    console.time('obdc');
-    if (id !== null) {
+    const BC = parseInt(req.query.BC);
+    const AFF = parseInt(req.query.AFF);
+
+    console.log('bc = ' + BC);
+    console.log('aff = ' + BC);
+
+    if (BC !== null || AFF !== null) {
       odbc.pool('DSN=HFSQL', (error1, pool) => {
         if (error1) {
           return;
         } // handle
-        console.time('query');
+
+        if (BC != '' && BC != null) {
+          console.log('BC ok');
+        } else if (AFF != '' && AFF != null) {
+          console.log('AFF ok');
+        }
+
+        /*
         const result = pool.query(
           'SELECT COFOU,NAF,COCLI,ART,DESA1,DESA2,DESA3,QTE FROM DETAILBC LEFT JOIN BC ON DETAILBC.COBC = BC.COBC where BC.COBC=' +
-            id,
+            BC,
           (error2, result) => {
             if (error2) {
               console.log(error2);
@@ -51,9 +62,46 @@ export function create(/* { ... } */) {
             res.end(toJson(result));
           }
         );
-        console.timeEnd('query');
+        */
       });
-      console.timeEnd('obdc');
+    }
+  });
+
+  app.get('/BCAFF', (req, res) => {
+    const id = parseInt(req.query.id);
+
+    if (id !== null) {
+      odbc.pool('DSN=HFSQL', (error1, pool) => {
+        let COBC1 = -1;
+        if (error1) {
+          return;
+        } // handle
+        //recuperation commande client pour recherche commande achat
+        pool.query(
+          'SELECT COBC FROM DETAILBC where NAF = ' + id,
+          (error2, result) => {
+            if (error2) {
+              console.log(error2);
+            } // handle
+            COBC1 = result;
+          }
+        );
+
+        if (commande != -1) {
+          pool.query(
+            'SELECT COFOU,NAF,COCLI,ART,DESA1,DESA2,DESA3,QTE FROM DETAILBC LEFT JOIN BC ON DETAILBC.COBC = BC.COBC where BC.COBC= (SELECT COBC FROM DETAILBC where NAF = ' +
+              id +
+              ')',
+            (error2, result) => {
+              if (error2) {
+                console.log(error2);
+              } // handle
+              //res.end(JSON.stringify(result));
+              res.end(toJson(result));
+            }
+          );
+        }
+      });
     }
   });
 

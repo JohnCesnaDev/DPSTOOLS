@@ -55,8 +55,14 @@ const linksList = [
   {
     title: 'Debit Tube',
     caption: 'Calcul Debit Tube',
-    icon: 'shopping_cart',
+    icon: 'carpenter',
     link: 'tube',
+  },
+  {
+    title: 'Poid Tôle',
+    caption: 'Calcul Poid Tôle',
+    icon: 'scale',
+    link: 'poid',
   },
 ];
 

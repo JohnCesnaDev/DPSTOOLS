@@ -5,14 +5,15 @@
         <q-toolbar>
           <q-toolbar-title> Commande </q-toolbar-title>
         </q-toolbar>
-        <div style="margin: 10px">
-          <div class="col column q-gutter-sm">
+        <div style="margin: 15px">
+          <div class="col column q-gutter-md">
             <q-input
               outlined
               type="number"
               label="Commande"
               stack-label
               v-model="BC"
+              @focus="clear('BC')"
             ></q-input>
             <q-input
               outlined
@@ -20,7 +21,7 @@
               label="Affaire"
               stack-label
               v-model="AFF"
-              disable
+              @focus="clear('AFF')"
             ></q-input>
             <q-btn @click="find" color="primary" label="Recherche" />
           </div>
@@ -120,24 +121,42 @@ const columns = [
   },
 ];
 
+function clear(input) {
+  if (input == 'BC') {
+    AFF.value = '';
+  } else if (input == 'AFF') {
+    BC.value = '';
+  }
+}
+
 function find() {
   // GET request for remote image in node.js
-  const idBC = BC.value;
-  api
-    .get('/BC', {
-      params: {
-        id: idBC,
-      },
-    })
-    .then(function (response) {
-      data.value = response.data;
-    })
-    .catch(function (error) {
-      alert(error);
-    })
-    .then(function () {
-      // dans tous les cas
-    });
+  const paramsBC = BC.value;
+  const paramsAFF = AFF.value;
+
+  if (
+    AFF.value != '' ||
+    AFF.value != undefined ||
+    BC.value != '' ||
+    BC.value != undefined
+  ) {
+    api
+      .get('/BC', {
+        params: {
+          BC: paramsBC,
+          AFF: paramsAFF,
+        },
+      })
+      .then(function (response) {
+        data.value = response.data;
+      })
+      .catch(function (error) {
+        alert(error);
+      })
+      .then(function () {
+        // dans tous les cas
+      });
+  }
 }
 
 //event clavier

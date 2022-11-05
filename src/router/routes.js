@@ -8,7 +8,9 @@ const routes = [
         component: () => import('pages/IndexPage.vue'),
       },
       { path: 'achat', component: () => import('pages/AchatPage.vue') },
+      { path: 'bl', component: () => import('pages/BLPage.vue') },
       { path: 'tube', component: () => import('pages/TubePage.vue') },
+      { path: 'poid', component: () => import('pages/PoidPage.vue') },
     ],
   },
 
