@@ -81,7 +81,7 @@ const columns = [
     name: 'cobc',
     required: true,
     align: 'left',
-    label: 'Commande Fournisseur',
+    label: 'Commande',
     field: 'COBC',
   },
   {

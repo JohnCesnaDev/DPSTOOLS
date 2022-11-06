@@ -390,483 +390,483 @@
     "/assets/flUhRq6tzZclQEJ-Vdg-IuiaDsNa.450e40b0.woff"
   ],
   "node_modules/axios/lib/helpers/bind.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/utils.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/core/AxiosError.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/form-data/lib/browser.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/helpers/toFormData.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/helpers/AxiosURLSearchParams.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/helpers/buildURL.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/core/InterceptorManager.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/defaults/transitional.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/platform/browser/classes/URLSearchParams.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/platform/browser/classes/FormData.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/platform/browser/index.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/helpers/toURLEncodedForm.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/helpers/formDataToJSON.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/core/settle.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/helpers/cookies.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/helpers/isAbsoluteURL.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/helpers/combineURLs.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/core/buildFullPath.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/helpers/isURLSameOrigin.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/cancel/CanceledError.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/helpers/parseProtocol.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/helpers/parseHeaders.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/core/AxiosHeaders.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/helpers/speedometer.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/adapters/xhr.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/adapters/index.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/defaults/index.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/core/transformData.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/cancel/isCancel.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/core/dispatchRequest.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/core/mergeConfig.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/env/data.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/helpers/validator.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/core/Axios.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/cancel/CancelToken.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/helpers/spread.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/helpers/isAxiosError.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/axios/lib/axios.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "src/boot/axios.js": [
-    "/assets/axios.c67ba24d.js"
+    "/assets/axios.13ba1c9c.js"
   ],
   "node_modules/quasar/src/composables/private/use-can-render.js": [
-    "/assets/MainLayout.f1f7188b.js"
+    "/assets/MainLayout.07a2d9a4.js"
   ],
   "node_modules/quasar/src/components/resize-observer/QResizeObserver.js": [
-    "/assets/MainLayout.f1f7188b.js"
+    "/assets/MainLayout.07a2d9a4.js"
   ],
   "node_modules/quasar/src/components/header/QHeader.js": [
-    "/assets/MainLayout.f1f7188b.js"
+    "/assets/MainLayout.07a2d9a4.js"
   ],
   "node_modules/quasar/src/utils/private/touch.js": [
-    "/assets/MainLayout.f1f7188b.js"
+    "/assets/MainLayout.07a2d9a4.js"
   ],
   "node_modules/quasar/src/directives/TouchPan.js": [
-    "/assets/MainLayout.f1f7188b.js"
+    "/assets/MainLayout.07a2d9a4.js"
   ],
   "node_modules/quasar/src/components/drawer/QDrawer.js": [
-    "/assets/MainLayout.f1f7188b.js"
+    "/assets/MainLayout.07a2d9a4.js"
   ],
   "node_modules/quasar/src/components/page/QPageContainer.js": [
-    "/assets/MainLayout.f1f7188b.js"
+    "/assets/MainLayout.07a2d9a4.js"
   ],
   "node_modules/quasar/src/components/scroll-observer/QScrollObserver.js": [
-    "/assets/MainLayout.f1f7188b.js"
+    "/assets/MainLayout.07a2d9a4.js"
   ],
   "node_modules/quasar/src/components/layout/QLayout.js": [
-    "/assets/MainLayout.f1f7188b.js"
+    "/assets/MainLayout.07a2d9a4.js"
   ],
   "src/components/EssentialLink.vue": [
-    "/assets/MainLayout.f1f7188b.js"
+    "/assets/MainLayout.07a2d9a4.js"
   ],
   "src/layouts/MainLayout.vue": [
-    "/assets/MainLayout.f1f7188b.js"
+    "/assets/MainLayout.07a2d9a4.js"
   ],
   "node_modules/quasar/src/composables/private/use-size.js": [
-    "/assets/QBtn.4173284b.js"
+    "/assets/QBtn.20ef2fbb.js"
   ],
   "node_modules/quasar/src/components/icon/QIcon.js": [
-    "/assets/QBtn.4173284b.js"
+    "/assets/QBtn.20ef2fbb.js"
   ],
   "node_modules/quasar/src/components/spinner/use-spinner.js": [
-    "/assets/QBtn.4173284b.js"
+    "/assets/QBtn.20ef2fbb.js"
   ],
   "node_modules/quasar/src/components/spinner/QSpinner.js": [
-    "/assets/QBtn.4173284b.js"
+    "/assets/QBtn.20ef2fbb.js"
   ],
   "node_modules/quasar/src/utils/dom.js": [
-    "/assets/QBtn.4173284b.js"
+    "/assets/QBtn.20ef2fbb.js"
   ],
   "node_modules/quasar/src/utils/throttle.js": [
-    "/assets/QBtn.4173284b.js"
+    "/assets/QBtn.20ef2fbb.js"
   ],
   "node_modules/quasar/src/directives/Ripple.js": [
-    "/assets/QBtn.4173284b.js"
+    "/assets/QBtn.20ef2fbb.js"
   ],
   "node_modules/quasar/src/composables/private/use-align.js": [
-    "/assets/QBtn.4173284b.js"
+    "/assets/QBtn.20ef2fbb.js"
   ],
   "node_modules/quasar/src/utils/private/vm.js": [
-    "/assets/QBtn.4173284b.js"
+    "/assets/QBtn.20ef2fbb.js"
   ],
   "node_modules/quasar/src/composables/private/use-router-link.js": [
-    "/assets/QBtn.4173284b.js"
+    "/assets/QBtn.20ef2fbb.js"
   ],
   "node_modules/quasar/src/components/btn/use-btn.js": [
-    "/assets/QBtn.4173284b.js"
+    "/assets/QBtn.20ef2fbb.js"
   ],
   "node_modules/quasar/src/components/btn/QBtn.js": [
-    "/assets/QBtn.4173284b.js"
+    "/assets/QBtn.20ef2fbb.js"
   ],
   "node_modules/quasar/src/components/toolbar/QToolbarTitle.js": [
-    "/assets/use-dark.146f1239.js"
+    "/assets/use-dark.9c552462.js"
   ],
   "node_modules/quasar/src/components/toolbar/QToolbar.js": [
-    "/assets/use-dark.146f1239.js"
+    "/assets/use-dark.9c552462.js"
   ],
   "node_modules/quasar/src/composables/private/use-dark.js": [
-    "/assets/use-dark.146f1239.js"
+    "/assets/use-dark.9c552462.js"
   ],
   "node_modules/quasar/src/components/item/QItemLabel.js": [
-    "/assets/QItem.4e496d80.js"
+    "/assets/QItem.8c60f7e8.js"
   ],
   "node_modules/quasar/src/components/item/QList.js": [
-    "/assets/QItem.4e496d80.js"
+    "/assets/QItem.8c60f7e8.js"
   ],
   "node_modules/quasar/src/composables/private/use-history.js": [
-    "/assets/QItem.4e496d80.js"
+    "/assets/QItem.8c60f7e8.js"
   ],
   "node_modules/quasar/src/composables/private/use-model-toggle.js": [
-    "/assets/QItem.4e496d80.js"
+    "/assets/QItem.8c60f7e8.js"
   ],
   "node_modules/quasar/src/utils/scroll.js": [
-    "/assets/QItem.4e496d80.js"
+    "/assets/QItem.8c60f7e8.js"
   ],
   "node_modules/quasar/src/utils/prevent-scroll.js": [
-    "/assets/QItem.4e496d80.js"
+    "/assets/QItem.8c60f7e8.js"
   ],
   "node_modules/quasar/src/composables/private/use-prevent-scroll.js": [
-    "/assets/QItem.4e496d80.js"
+    "/assets/QItem.8c60f7e8.js"
   ],
   "node_modules/quasar/src/composables/private/use-timeout.js": [
-    "/assets/QItem.4e496d80.js"
+    "/assets/QItem.8c60f7e8.js"
   ],
   "node_modules/quasar/src/utils/private/selection.js": [
-    "/assets/QItem.4e496d80.js"
+    "/assets/QItem.8c60f7e8.js"
   ],
   "node_modules/quasar/src/utils/format.js": [
-    "/assets/QItem.4e496d80.js"
+    "/assets/QItem.8c60f7e8.js"
   ],
   "node_modules/quasar/src/components/item/QItemSection.js": [
-    "/assets/QItem.4e496d80.js"
+    "/assets/QItem.8c60f7e8.js"
   ],
   "node_modules/quasar/src/components/item/QItem.js": [
-    "/assets/QItem.4e496d80.js"
+    "/assets/QItem.8c60f7e8.js"
   ],
   "node_modules/quasar/src/utils/private/create.js": [
-    "/assets/render.44ca4160.js"
+    "/assets/render.7e8ceaa1.js"
   ],
   "node_modules/quasar/src/utils/private/render.js": [
-    "/assets/render.44ca4160.js"
+    "/assets/render.7e8ceaa1.js"
   ],
   "src/pages/IndexPage.vue": [
-    "/assets/IndexPage.d65c5ddb.js"
+    "/assets/IndexPage.1042628d.js"
   ],
   "node_modules/quasar/src/components/page/QPage.js": [
-    "/assets/QPage.583e55fa.js"
+    "/assets/QPage.13a5d739.js"
   ],
   "node_modules/quasar/src/components/inner-loading/QInnerLoading.js": [
-    "/assets/AchatPage.4a2d4984.js",
+    "/assets/AchatPage.5ee88ff7.js",
     "/assets/AchatPage.2d86f3de.css"
   ],
   "src/pages/AchatPage.vue?vue&type=style&index=0&lang.sass": [
-    "/assets/AchatPage.4a2d4984.js",
+    "/assets/AchatPage.5ee88ff7.js",
     "/assets/AchatPage.2d86f3de.css"
   ],
   "src/pages/AchatPage.vue": [
-    "/assets/AchatPage.4a2d4984.js",
+    "/assets/AchatPage.5ee88ff7.js",
     "/assets/AchatPage.2d86f3de.css"
   ],
   "node_modules/quasar/src/composables/use-form-child.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/utils/patterns.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/utils/extend.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/components/circular-progress/use-circular-progress.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/components/circular-progress/QCircularProgress.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/composables/private/use-file.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/components/uploader/uploader-core.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/utils/private/get-emits-object.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/utils/create-uploader-component.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/utils/uid.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/composables/private/use-validate.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/composables/private/use-split-attrs.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/utils/private/focus-manager.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/composables/private/use-field.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/components/input/use-mask.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/composables/private/use-file-dom-props.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/composables/private/use-key-composition.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/components/input/QInput.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/composables/private/use-transition.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/components/table/QTh.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/components/separator/QSeparator.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/components/markup-table/QMarkupTable.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/components/table/get-table-middle.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/components/virtual-scroll/use-virtual-scroll.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/components/virtual-scroll/QVirtualScroll.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/components/field/QField.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/components/chip/QChip.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/composables/private/use-anchor.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/composables/private/use-scroll-target.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/utils/private/global-nodes.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/utils/private/portal.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/composables/private/use-portal.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/composables/private/use-tick.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/utils/private/escape-key.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/utils/private/focusout.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/utils/private/click-outside.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/utils/private/position-engine.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/components/menu/QMenu.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/components/dialog/QDialog.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/components/select/QSelect.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/components/linear-progress/QLinearProgress.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/composables/private/use-refocus-target.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/utils/private/option-sizes.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/components/checkbox/use-checkbox.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/components/checkbox/QCheckbox.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/composables/private/use-fullscreen.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/utils/private/sort.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/components/table/table-sort.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/components/table/table-filter.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/components/table/table-pagination.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/components/table/table-row-selection.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/components/table/table-row-expand.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/components/table/table-column-selection.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/components/table/QTable.js": [
-    "/assets/QTable.cc11e080.js"
+    "/assets/QTable.ba499bee.js"
   ],
   "node_modules/quasar/src/composables/private/use-form.js": [
-    "/assets/QCard.a81ff7f2.js"
+    "/assets/QCard.a9651238.js"
   ],
   "node_modules/quasar/src/components/card/QCard.js": [
-    "/assets/QCard.a81ff7f2.js"
+    "/assets/QCard.a9651238.js"
   ],
   "src/pages/BLPage.vue": [
-    "/assets/BLPage.b1112a90.js"
+    "/assets/BLPage.baf07b33.js"
   ],
   "node_modules/quasar/src/components/table/QTd.js": [
-    "/assets/TubePage.feddf55d.js",
+    "/assets/TubePage.baeadc9b.js",
     "/assets/AchatPage.2d86f3de.css"
   ],
   "node_modules/quasar/src/components/table/QTr.js": [
-    "/assets/TubePage.feddf55d.js",
+    "/assets/TubePage.baeadc9b.js",
     "/assets/AchatPage.2d86f3de.css"
   ],
   "node_modules/quasar/src/components/card/QCardSection.js": [
-    "/assets/TubePage.feddf55d.js",
+    "/assets/TubePage.baeadc9b.js",
     "/assets/AchatPage.2d86f3de.css"
   ],
   "node_modules/quasar/src/components/card/QCardActions.js": [
-    "/assets/TubePage.feddf55d.js",
+    "/assets/TubePage.baeadc9b.js",
     "/assets/AchatPage.2d86f3de.css"
   ],
   "node_modules/quasar/src/directives/ClosePopup.js": [
-    "/assets/TubePage.feddf55d.js",
+    "/assets/TubePage.baeadc9b.js",
     "/assets/AchatPage.2d86f3de.css"
   ],
   "src/pages/TubePage.vue?vue&type=style&index=0&lang.sass": [
-    "/assets/TubePage.feddf55d.js",
+    "/assets/TubePage.baeadc9b.js",
     "/assets/AchatPage.2d86f3de.css"
   ],
   "src/pages/TubePage.vue": [
-    "/assets/TubePage.feddf55d.js",
+    "/assets/TubePage.baeadc9b.js",
     "/assets/AchatPage.2d86f3de.css"
   ],
   "node_modules/quasar/src/components/space/QSpace.js": [
-    "/assets/PoidPage.2aaf4e3d.js",
+    "/assets/PoidPage.cf7f9765.js",
     "/assets/PoidPage.e4cd30dc.css"
   ],
   "node_modules/quasar/src/components/btn-group/QBtnGroup.js": [
-    "/assets/PoidPage.2aaf4e3d.js",
+    "/assets/PoidPage.cf7f9765.js",
     "/assets/PoidPage.e4cd30dc.css"
   ],
   "node_modules/quasar/src/components/btn-toggle/QBtnToggle.js": [
-    "/assets/PoidPage.2aaf4e3d.js",
+    "/assets/PoidPage.cf7f9765.js",
     "/assets/PoidPage.e4cd30dc.css"
   ],
   "src/pages/PoidPage.vue?vue&type=style&index=0&lang.sass": [
-    "/assets/PoidPage.2aaf4e3d.js",
+    "/assets/PoidPage.cf7f9765.js",
     "/assets/PoidPage.e4cd30dc.css"
   ],
   "src/pages/PoidPage.vue": [
-    "/assets/PoidPage.2aaf4e3d.js",
+    "/assets/PoidPage.cf7f9765.js",
     "/assets/PoidPage.e4cd30dc.css"
   ],
   "src/pages/ErrorNotFound.vue": [
-    "/assets/ErrorNotFound.4b9b8500.js"
+    "/assets/ErrorNotFound.162a4ccd.js"
   ]
 }
