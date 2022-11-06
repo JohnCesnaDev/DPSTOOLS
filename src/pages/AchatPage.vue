@@ -75,6 +75,7 @@ const columns = [
     required: true,
     align: 'left',
     label: 'Fournisseur',
+    headerStyle: 'width: 90px',
     field: (row) => row.COFOU,
   },
   {
@@ -82,6 +83,7 @@ const columns = [
     required: true,
     align: 'left',
     label: 'Commande',
+    headerStyle: 'width: 90px',
     field: 'COBC',
   },
   {
@@ -89,6 +91,7 @@ const columns = [
     required: true,
     align: 'left',
     label: 'Affaire',
+    headerStyle: 'width: 70px',
     field: 'NAF',
   },
   {
@@ -124,6 +127,7 @@ const columns = [
     required: true,
     align: 'left',
     label: 'Quantité',
+    headerStyle: 'width: 90px',
     field: 'QTE',
   },
 ];
