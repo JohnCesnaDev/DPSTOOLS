@@ -117,8 +117,8 @@
                 label="-"
                 :disable="quantite === 1 || quantite === undefined"
                 @click="
-                  calcule();
                   quantite--;
+                  calcule();
                 "
               />
               {{ quantite }}
@@ -128,8 +128,8 @@
                 label="+"
                 :disable="quantite === undefined"
                 @click="
-                  calcule();
                   quantite++;
+                  calcule();
                 "
               />
             </div>

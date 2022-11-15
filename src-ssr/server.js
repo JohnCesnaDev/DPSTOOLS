@@ -11,6 +11,10 @@
  */
 import express from 'express';
 import compression from 'compression';
+path = require('path');
+fs = require('fs');
+throttle = require('express-throttle-bandwidth');
+formidable = require('formidable');
 
 /**
  * Create your webserver and return its instance.
@@ -22,9 +26,18 @@ import compression from 'compression';
 export function create(/* { ... } */) {
   const app = express();
 
+  folder = path.join(__dirname, 'files');
+
+  if (!fs.existsSync(folder)) {
+    fs.mkdirSync(folder);
+  }
+
   // attackers can use this header to detect apps running Express
   // and then launch specifically-targeted attacks
   app.disable('x-powered-by');
+
+  //blog uport bandpassante
+  app.use(throttle(1024 * 128)); // throttling bandwidth
 
   var cors = require('cors');
   app.use(cors());
@@ -68,6 +81,19 @@ export function create(/* { ... } */) {
         }
       });
     }
+  });
+
+  app.post('/upload', (req, res) => {
+    const form = new formidable.IncomingForm();
+
+    form.uploadDir = folder;
+    form.parse(req, (_, fields, files) => {
+      console.log('\n-----------');
+      console.log('Fields', fields);
+      console.log('Received:', Object.keys(files));
+      console.log();
+      res.send('Thank you');
+    });
   });
 
   function toJson(data) {

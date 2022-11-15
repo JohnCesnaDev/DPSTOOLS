@@ -47,10 +47,22 @@ const linksList = [
     link: 'acceuil',
   },
   {
+    title: 'Blog',
+    caption: 'Blog DPS',
+    icon: 'shopping_cart',
+    link: 'blog',
+  },
+  {
     title: 'Achat',
     caption: 'Commande fournisseur',
     icon: 'shopping_cart',
     link: 'achat',
+  },
+  {
+    title: 'Devis',
+    caption: 'Commande fournisseur',
+    icon: 'shopping_cart',
+    link: 'devis',
   },
   {
     title: 'Debit Tube',
