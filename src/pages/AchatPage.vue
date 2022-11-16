@@ -102,7 +102,7 @@ const columns = [
     headerStyle: 'width: 70px',
     field: 'DATE',
     format: (val, row) =>
-      `${val.substring(5, 6)}/${val.substring(7, 8)}/${val.substring(1, 4)}`,
+      `${val.substring(6, 8)}/${val.substring(4, 6)}/${val.substring(0, 4)}`,
   },
   {
     name: 'delai',
@@ -111,6 +111,8 @@ const columns = [
     label: 'Delai',
     headerStyle: 'width: 70px',
     field: 'DELAI',
+    format: (val, row) =>
+      `${val.substring(6, 8)}/${val.substring(4, 6)}/${val.substring(0, 4)}`,
   },
   {
     name: 'article',
