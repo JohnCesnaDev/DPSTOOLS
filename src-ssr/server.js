@@ -56,7 +56,7 @@ export function create(/* { ... } */) {
 
         if (BC) {
           const result = pool.query(
-            'SELECT COFOU,DETAILBC.COBC,NAF,COCLI,DATE,DELAI,ART,DESA1,DESA2,DESA3,QTE FROM DETAILBC LEFT JOIN BC ON DETAILBC.COBC = BC.COBC where BC.COBC=' +
+            'SELECT COFOU,DETAILBC.COBC,NAF,COCLI,convert(DATE, getdate(), 3),DELAI,ART,DESA1,DESA2,DESA3,QTE FROM DETAILBC LEFT JOIN BC ON DETAILBC.COBC = BC.COBC where BC.COBC=' +
               BC,
             (error2, result) => {
               if (error2) {
@@ -69,7 +69,7 @@ export function create(/* { ... } */) {
           );
         } else if (AFF) {
           pool.query(
-            'SELECT COFOU,DETAILBC.COBC,NAF,COCLI,DATE,DELAI,ART,DESA1,DESA2,DESA3,QTE FROM DETAILBC LEFT JOIN BC ON DETAILBC.COBC = BC.COBC where DETAILBC.NAF = ' +
+            'SELECT COFOU,DETAILBC.COBC,NAF,COCLI,convert(DATE, getdate(), 3),DELAI,ART,DESA1,DESA2,DESA3,QTE FROM DETAILBC LEFT JOIN BC ON DETAILBC.COBC = BC.COBC where DETAILBC.NAF = ' +
               AFF,
             (error2, result) => {
               if (error2) {
