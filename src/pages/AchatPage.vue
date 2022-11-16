@@ -160,6 +160,7 @@ function find() {
   // GET request for remote image in node.js
 
   if (AFF.value || BC.value) {
+    loading.value = true;
     const paramsBC = BC.value;
     const paramsAFF = AFF.value;
 
@@ -172,6 +173,7 @@ function find() {
       })
       .then(function (response) {
         data.value = response.data;
+        loading.value = false;
       })
       .catch(function (error) {
         alert(error);

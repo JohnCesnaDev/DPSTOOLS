@@ -63,6 +63,7 @@ export function create(/* { ... } */) {
                 console.log(error2);
               } // handle
               //res.end(JSON.stringify(result));
+              console.log(result);
               res.end(toJson(result));
             }
           );
@@ -75,6 +76,7 @@ export function create(/* { ... } */) {
                 console.log(error2);
               } // handle
               //res.end(JSON.stringify(result));
+              console.log(result);
               res.end(toJson(result));
             }
           );
