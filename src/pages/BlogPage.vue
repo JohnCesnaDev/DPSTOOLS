@@ -1,7 +1,10 @@
 <template>
   <q-page class="flex flex-center">
     <div class="column items-start">
-      <q-uploader url="http://localhost:9100/upload" style="max-width: 300px" />
+      <q-uploader
+        url="http://192.168.1.210:3000/upload"
+        style="max-width: 300px"
+      />
     </div>
   </q-page>
 </template>

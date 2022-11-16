@@ -95,6 +95,22 @@ const columns = [
     field: 'NAF',
   },
   {
+    name: 'date',
+    required: true,
+    align: 'left',
+    label: 'Date',
+    headerStyle: 'width: 70px',
+    field: 'DATE',
+  },
+  {
+    name: 'delai',
+    required: true,
+    align: 'left',
+    label: 'Delai',
+    headerStyle: 'width: 70px',
+    field: 'DELAI',
+  },
+  {
     name: 'article',
     required: true,
     align: 'left',
