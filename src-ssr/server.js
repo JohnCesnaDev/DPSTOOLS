@@ -55,6 +55,7 @@ export function create(/* { ... } */) {
   });
 
   app.get('/pg', (req, res) => {
+    console.log('pg: ok');
     pool.query(
       'SELECT * FROM "public"."doc__quote_finalization_item" where "_quote_finalization_item__reference" like "%60109246%"',
       (err, res) => {
