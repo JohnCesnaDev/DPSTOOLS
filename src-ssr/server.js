@@ -44,6 +44,28 @@ export function create(/* { ... } */) {
 
   const odbc = require('odbc');
 
+  const { Pool } = require('pg');
+
+  const pool = new Pool({
+    host: 'SRV-DPS',
+    port: 5432,
+    database: 'AlmaCAMClipper',
+    user: 'postgres',
+    password: 'almaC38!',
+  });
+
+  app.get('/pg', (req, res) => {
+    pool.query(
+      'SELECT * FROM "public"."doc__quote_finalization_item" where "_quote_finalization_item__reference" like "%60109246%"',
+      (err, res) => {
+        if (err) {
+          throw err;
+        }
+        console.log('user:', res.rows);
+      }
+    );
+  });
+
   app.get('/BC', (req, res) => {
     const BC = parseInt(req.query.BC);
     const AFF = parseInt(req.query.AFF);
@@ -63,7 +85,7 @@ export function create(/* { ... } */) {
                 console.log(error2);
               } // handle
               //res.end(JSON.stringify(result));
-              console.log(result);
+              //console.log(result);
               res.end(toJson(result));
             }
           );
@@ -76,7 +98,7 @@ export function create(/* { ... } */) {
                 console.log(error2);
               } // handle
               //res.end(JSON.stringify(result));
-              console.log(result);
+              //console.log(result);
               res.end(toJson(result));
             }
           );

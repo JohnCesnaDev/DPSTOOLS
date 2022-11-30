@@ -16,6 +16,7 @@
     "express-throttle-bandwidth": "^1.0.1",
     "formidable": "^2.0.1",
     "odbc": "^2.4.6",
+    "pg": "^8.8.0",
     "quasar": "^2.6.4",
     "vue": "^3.0.0",
     "vue-html-to-paper": "^1.4.4",

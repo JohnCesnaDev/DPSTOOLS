@@ -664,11 +664,11 @@
   ],
   "src/pages/AchatPage.vue?vue&type=style&index=0&lang.sass": [
     "/assets/AchatPage.7840e315.js",
-    "/assets/TubePage.60dcbd4d.css"
+    "/assets/DevisPage.58f0030e.css"
   ],
   "src/pages/AchatPage.vue": [
     "/assets/AchatPage.7840e315.js",
-    "/assets/TubePage.60dcbd4d.css"
+    "/assets/DevisPage.58f0030e.css"
   ],
   "node_modules/quasar/src/composables/use-form-child.js": [
     "/assets/QTable.38bb5f37.js"
@@ -825,42 +825,42 @@
   ],
   "src/pages/DevisPage.vue?vue&type=style&index=0&lang.sass": [
     "/assets/DevisPage.97f177fc.js",
-    "/assets/TubePage.60dcbd4d.css"
+    "/assets/DevisPage.58f0030e.css"
   ],
   "src/pages/DevisPage.vue": [
     "/assets/DevisPage.97f177fc.js",
-    "/assets/TubePage.60dcbd4d.css"
+    "/assets/DevisPage.58f0030e.css"
   ],
   "src/pages/BLPage.vue": [
     "/assets/BLPage.ca10db7d.js"
   ],
   "node_modules/quasar/src/components/table/QTd.js": [
     "/assets/TubePage.97fdefdd.js",
-    "/assets/TubePage.60dcbd4d.css"
+    "/assets/DevisPage.58f0030e.css"
   ],
   "node_modules/quasar/src/components/table/QTr.js": [
     "/assets/TubePage.97fdefdd.js",
-    "/assets/TubePage.60dcbd4d.css"
+    "/assets/DevisPage.58f0030e.css"
   ],
   "node_modules/quasar/src/components/card/QCardSection.js": [
     "/assets/TubePage.97fdefdd.js",
-    "/assets/TubePage.60dcbd4d.css"
+    "/assets/DevisPage.58f0030e.css"
   ],
   "node_modules/quasar/src/components/card/QCardActions.js": [
     "/assets/TubePage.97fdefdd.js",
-    "/assets/TubePage.60dcbd4d.css"
+    "/assets/DevisPage.58f0030e.css"
   ],
   "node_modules/quasar/src/directives/ClosePopup.js": [
     "/assets/TubePage.97fdefdd.js",
-    "/assets/TubePage.60dcbd4d.css"
+    "/assets/DevisPage.58f0030e.css"
   ],
   "src/pages/TubePage.vue?vue&type=style&index=0&lang.sass": [
     "/assets/TubePage.97fdefdd.js",
-    "/assets/TubePage.60dcbd4d.css"
+    "/assets/DevisPage.58f0030e.css"
   ],
   "src/pages/TubePage.vue": [
     "/assets/TubePage.97fdefdd.js",
-    "/assets/TubePage.60dcbd4d.css"
+    "/assets/DevisPage.58f0030e.css"
   ],
   "node_modules/quasar/src/components/space/QSpace.js": [
     "/assets/PoidPage.4b15610b.js",
