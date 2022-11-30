@@ -47,7 +47,7 @@ export function create(/* { ... } */) {
   const { Pool } = require('pg');
 
   const pool = new Pool({
-    host: 'SRV-DPS',
+    host: '192.168.1.200',
     port: 5432,
     database: 'AlmaCAMClipper',
     user: 'postgres',
