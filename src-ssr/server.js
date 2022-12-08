@@ -70,20 +70,21 @@ export function create(/* { ... } */) {
         if (err) {
           throw err;
         }
-        console.log(
+        /*console.log(
           'queryAlma: SELECT _quote_finalization_item__reference,id__quote_finalization_item__quote_finalization,_quote_finalization_item__franco_unit_cost,_quote_finalization_item__quantity,timestamp__quote_finalization_item FROM "public"."doc__quote_finalization_item" where "_quote_finalization_item__reference" like' +
             "'%" +
             REF +
             "%'"
         );
+        */
         result.devisAlma = resquery.rows;
-        console.log('devisAlma:', resquery.rows);
+        //console.log('devisAlma:', resquery.rows);
       }
     );
 
     result.devisClipper = [{}];
     result.affaireClipper = [{}];
-
+    console.log('return:', toJson(result));
     res.end(toJson(result));
   });
 

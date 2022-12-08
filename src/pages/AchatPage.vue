@@ -95,6 +95,14 @@ const columns = [
     field: 'NAF',
   },
   {
+    name: 'client',
+    required: true,
+    align: 'left',
+    label: 'Client',
+    headerStyle: 'width: 70px',
+    field: 'COCLI',
+  },
+  {
     name: 'date',
     required: true,
     align: 'left',
