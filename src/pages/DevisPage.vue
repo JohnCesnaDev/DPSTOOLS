@@ -137,7 +137,7 @@ function getDevis() {
     api
       .get('/PG', {
         params: {
-          REF: reference,
+          REF: reference.value,
         },
       })
       .then(function (response) {
