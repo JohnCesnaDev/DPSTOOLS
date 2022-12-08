@@ -1,60 +1,87 @@
 <template>
   <q-page class="flex flex-center">
-    <div class="row items-start q-gutter-md">
-      <q-card class="shadow-10 q-card--bordered" style="height: 800px">
-        <q-toolbar>
-          <q-toolbar-title> Commande </q-toolbar-title>
-        </q-toolbar>
-        <div style="margin: 15px">
-          <div class="col column q-gutter-md">
-            <q-input
-              outlined
-              type="number"
-              label="Commande"
-              stack-label
-              v-model="BC"
-              @focus="clear('BC')"
-            ></q-input>
-            <q-input
-              outlined
-              type="number"
-              label="Affaire"
-              stack-label
-              v-model="AFF"
-              @focus="clear('AFF')"
-            ></q-input>
-            <q-btn @click="find" color="primary" label="Recherche" />
+    <div class="column items-start q-col-gutter-md">
+      <div class="fit">
+        <q-card class="shadow-10 q-card--bordered">
+          <q-toolbar>
+            <q-toolbar-title> Recherche </q-toolbar-title>
+          </q-toolbar>
+          <div style="margin: 15px">
+            <div class="row q-gutter-md">
+              <q-input
+                outlined
+                label="référence"
+                stack-label
+                v-model="reference"
+                @focus="clear"
+              ></q-input>
+              <q-btn @click="getDevis" color="primary" label="Recherche" />
+            </div>
           </div>
-        </div>
-      </q-card>
-      <q-card
-        class="shadow-10 q-card--bordered"
-        style="height: 800px; min-width: 1000px"
-      >
-        <q-toolbar>
-          <q-toolbar-title>Article</q-toolbar-title>
-        </q-toolbar>
-        <div style="margin: 15px">
+        </q-card>
+      </div>
+      <div class="row items-start q-gutter-md">
+        <q-card class="shadow-10 q-card--bordered" style="height: 600px">
+          <q-toolbar>
+            <q-toolbar-title> Devis Alma</q-toolbar-title>
+          </q-toolbar>
+
           <q-table
             class="my-sticky-header-table"
-            style="height: 715px"
+            style="margin: 15px; height: 520px; min-width: 500px"
             flat
             bordered
-            :rows="data"
+            :rows="rows.devisAlma"
             :columns="columns"
-            row-key="article"
+            row-key="devis"
             separator="cell"
             :rows-per-page-options="[0]"
             virtual-scroll
-            v-model:selected="selected"
-            :loading="loading"
           >
-            <template v-slot:loading>
-              <q-inner-loading showing color="primary" />
-            </template>
           </q-table>
-        </div>
-      </q-card>
+        </q-card>
+
+        <q-card class="shadow-10 q-card--bordered" style="height: 600px">
+          <q-toolbar>
+            <q-toolbar-title> Devis Clipper</q-toolbar-title>
+          </q-toolbar>
+          <div style="margin: 15px">
+            <q-table
+              class="my-sticky-header-table"
+              style="height: 520px; min-width: 500px"
+              flat
+              bordered
+              :rows="rows.devisClipper"
+              :columns="columns"
+              row-key="devis"
+              separator="cell"
+              :rows-per-page-options="[0]"
+              virtual-scroll
+            >
+            </q-table>
+          </div>
+        </q-card>
+        <q-card class="shadow-10 q-card--bordered" style="height: 600px">
+          <q-toolbar>
+            <q-toolbar-title> Affaire Clipper</q-toolbar-title>
+          </q-toolbar>
+          <div style="margin: 15px">
+            <q-table
+              class="my-sticky-header-table"
+              style="height: 520px; min-width: 500px"
+              flat
+              bordered
+              :rows="rows.affaireClipper"
+              :columns="columns"
+              row-key="devis"
+              separator="cell"
+              :rows-per-page-options="[0]"
+              virtual-scroll
+            >
+            </q-table>
+          </div>
+        </q-card>
+      </div>
     </div>
   </q-page>
 </template>
@@ -63,99 +90,60 @@
 import { ref } from 'vue';
 import { api } from 'boot/axios';
 
-const data = ref([]);
+//var parametre longueur barre
+const reference = ref('');
 
-const BC = ref();
-const AFF = ref();
-const loading = ref(false);
-
+// info colonne tableau
 const columns = [
   {
-    name: 'fournisseur',
+    name: 'reference',
     required: true,
     align: 'left',
-    label: 'Fournisseur',
-    headerStyle: 'width: 90px',
-    field: (row) => row.COFOU,
+    label: 'Réference',
+    field: (row) => row._quote_finalization_item__reference,
   },
   {
-    name: 'cobc',
+    name: 'id',
     required: true,
     align: 'left',
-    label: 'Commande',
-    headerStyle: 'width: 90px',
-    field: 'COBC',
-  },
-  {
-    name: 'naf',
-    required: true,
-    align: 'left',
-    label: 'Affaire',
-    headerStyle: 'width: 70px',
-    field: 'NAF',
-  },
-  {
-    name: 'article',
-    required: true,
-    align: 'left',
-    label: 'Arcticle',
-    field: 'ART',
-  },
-  {
-    name: 'desa1',
-    required: true,
-    align: 'left',
-    label: 'Descriptif 1',
-    field: 'DESA1',
-  },
-  {
-    name: 'desa2',
-    required: true,
-    align: 'left',
-    label: 'Descriptif 2',
-    field: 'DESA2',
-  },
-  {
-    name: 'desa3',
-    required: true,
-    align: 'left',
-    label: 'Descriptif 3',
-    field: 'DESA3',
+    label: 'Devis',
+    headerStyle: 'width: 20%',
+    field: 'id__quote_finalization_item__quote_finalization',
   },
   {
     name: 'quantite',
     required: true,
     align: 'left',
     label: 'Quantité',
-    headerStyle: 'width: 90px',
-    field: 'QTE',
+    headerStyle: 'width: 20%',
+    field: '_quote_finalization_item__quantity',
+  },
+  {
+    name: 'prix',
+    required: true,
+    align: 'left',
+    label: 'Prix',
+    headerStyle: 'width: 20%',
+    field: 'timestamp__quote_finalization_item',
   },
 ];
 
-function clear(input) {
-  if (input == 'BC') {
-    AFF.value = '';
-  } else if (input == 'AFF') {
-    BC.value = '';
-  }
-}
+const rows = ref({ devisAlma: [], devisClipper: [], affaireClipper: [] });
 
-function find() {
+function getDevis() {
   // GET request for remote image in node.js
 
-  if (AFF.value || BC.value) {
-    const paramsBC = BC.value;
-    const paramsAFF = AFF.value;
-
+  if (reference.value != '') {
     api
-      .get('/BC', {
+      .get('/PG', {
         params: {
-          BC: paramsBC,
-          AFF: paramsAFF,
+          REF: reference,
         },
       })
       .then(function (response) {
-        data.value = response.data;
+        console.log(response.data);
+        rows.value = response.data;
+        //loading.value = false;
       })
       .catch(function (error) {
         alert(error);
@@ -166,16 +154,21 @@ function find() {
   }
 }
 
-//event clavier
-/*
-function onKey(evt) {
-  if (evt.keyCode === 13) {
-    find();
+//suprime toute les entrees
+function DeleteAll() {
+  rows.value = [];
+}
+
+//suprime toute les entrees selectionner
+function Delete() {
+  if (ticked.value.length) {
+    console.log('ok');
   }
 }
-*/
 
-//select * from OBSDEVIS where COPIECE like '%8960%'
+function clear() {
+  reference.value = '';
+}
 </script>
 
 <style lang="sass">

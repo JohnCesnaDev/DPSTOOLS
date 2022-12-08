@@ -54,21 +54,37 @@ export function create(/* { ... } */) {
     password: 'almaC38!',
   });
 
-  app.get('/pg', (req, res) => {
+  app.get('/PG', (req, res) => {
     console.log('pg: ok');
-    pool.query(
-      'SELECT * FROM "public"."doc__quote_finalization_item" where "_quote_finalization_item__reference" like' +
-        "'" +
-        '%60109246%' +
-        "'",
 
-      (err, res) => {
+    const REF = req.query.REF;
+
+    let result = { devisAlma: {}, devisClipper: {}, affaireClipper: {} };
+
+    pool.query(
+      'SELECT _quote_finalization_item__reference,id__quote_finalization_item__quote_finalization,_quote_finalization_item__franco_unit_cost,_quote_finalization_item__quantity,timestamp__quote_finalization_item FROM "public"."doc__quote_finalization_item" where "_quote_finalization_item__reference" like' +
+        "'%" +
+        REF +
+        "%'",
+      (err, resquery) => {
         if (err) {
           throw err;
         }
-        console.log('user:', res.rows);
+        console.log(
+          'queryAlma: SELECT _quote_finalization_item__reference,id__quote_finalization_item__quote_finalization,_quote_finalization_item__franco_unit_cost,_quote_finalization_item__quantity,timestamp__quote_finalization_item FROM "public"."doc__quote_finalization_item" where "_quote_finalization_item__reference" like' +
+            "'%" +
+            REF +
+            "%'"
+        );
+        result.devisAlma = resquery.rows;
+        console.log('devisAlma:', resquery.rows);
       }
     );
+
+    result.devisClipper = [{}];
+    result.affaireClipper = [{}];
+
+    res.end(toJson(result));
   });
 
   app.get('/BC', (req, res) => {
