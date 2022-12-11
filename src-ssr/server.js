@@ -48,7 +48,7 @@ export function create(/* { ... } */) {
 
   const pool = new Pool({
     host: '192.168.1.200',
-    port: 5432,
+    port: 5433,
     database: 'AlmaCAMClipper',
     user: 'postgres',
     password: 'almaC38!',
@@ -77,7 +77,7 @@ export function create(/* { ... } */) {
             "%'"
         );
         */
-        result.devisAlma = resquery.rows;
+        result.devisAlma = [resquery.rows];
         //console.log('devisAlma:', resquery.rows);
       }
     );
