@@ -77,7 +77,7 @@ export function create(/* { ... } */) {
             "%'"
         );
         */
-        result.devisAlma = [resquery.rows];
+        result.devisAlma = resquery.rows;
         //console.log('devisAlma:', resquery.rows);
 
         result.devisClipper = [{}];
