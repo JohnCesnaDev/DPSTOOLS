@@ -78,7 +78,7 @@ export function create(/* { ... } */) {
         );
         */
         result.devisAlma = [resquery.rows];
-        //console.log('devisAlma:', resquery.rows);
+        console.log('devisAlma:', resquery.rows);
       }
     );
 
