@@ -664,15 +664,15 @@
   ],
   "node_modules/quasar/src/components/inner-loading/QInnerLoading.js": [
     "/assets/AchatPage.7f5d2263.js",
-    "/assets/TubePage.60dcbd4d.css"
+    "/assets/AchatPage.2d86f3de.css"
   ],
   "src/pages/AchatPage.vue?vue&type=style&index=0&lang.sass": [
     "/assets/AchatPage.7f5d2263.js",
-    "/assets/TubePage.60dcbd4d.css"
+    "/assets/AchatPage.2d86f3de.css"
   ],
   "src/pages/AchatPage.vue": [
     "/assets/AchatPage.7f5d2263.js",
-    "/assets/TubePage.60dcbd4d.css"
+    "/assets/AchatPage.2d86f3de.css"
   ],
   "node_modules/quasar/src/composables/use-form-child.js": [
     "/assets/QTable.90abd687.js"
@@ -826,42 +826,42 @@
   ],
   "src/pages/DevisPage.vue?vue&type=style&index=0&lang.sass": [
     "/assets/DevisPage.fe37c0d5.js",
-    "/assets/TubePage.60dcbd4d.css"
+    "/assets/AchatPage.2d86f3de.css"
   ],
   "src/pages/DevisPage.vue": [
     "/assets/DevisPage.fe37c0d5.js",
-    "/assets/TubePage.60dcbd4d.css"
+    "/assets/AchatPage.2d86f3de.css"
   ],
   "src/pages/BLPage.vue": [
     "/assets/BLPage.ebed197c.js"
   ],
   "node_modules/quasar/src/components/table/QTd.js": [
     "/assets/TubePage.7fb36d92.js",
-    "/assets/TubePage.60dcbd4d.css"
+    "/assets/AchatPage.2d86f3de.css"
   ],
   "node_modules/quasar/src/components/table/QTr.js": [
     "/assets/TubePage.7fb36d92.js",
-    "/assets/TubePage.60dcbd4d.css"
+    "/assets/AchatPage.2d86f3de.css"
   ],
   "node_modules/quasar/src/components/card/QCardSection.js": [
     "/assets/TubePage.7fb36d92.js",
-    "/assets/TubePage.60dcbd4d.css"
+    "/assets/AchatPage.2d86f3de.css"
   ],
   "node_modules/quasar/src/components/card/QCardActions.js": [
     "/assets/TubePage.7fb36d92.js",
-    "/assets/TubePage.60dcbd4d.css"
+    "/assets/AchatPage.2d86f3de.css"
   ],
   "node_modules/quasar/src/directives/ClosePopup.js": [
     "/assets/TubePage.7fb36d92.js",
-    "/assets/TubePage.60dcbd4d.css"
+    "/assets/AchatPage.2d86f3de.css"
   ],
   "src/pages/TubePage.vue?vue&type=style&index=0&lang.sass": [
     "/assets/TubePage.7fb36d92.js",
-    "/assets/TubePage.60dcbd4d.css"
+    "/assets/AchatPage.2d86f3de.css"
   ],
   "src/pages/TubePage.vue": [
     "/assets/TubePage.7fb36d92.js",
-    "/assets/TubePage.60dcbd4d.css"
+    "/assets/AchatPage.2d86f3de.css"
   ],
   "node_modules/quasar/src/components/space/QSpace.js": [
     "/assets/PoidPage.389ad444.js",

@@ -78,14 +78,14 @@ export function create(/* { ... } */) {
         );
         */
         result.devisAlma = [resquery.rows];
-        console.log('devisAlma:', resquery.rows);
+        //console.log('devisAlma:', resquery.rows);
+
+        result.devisClipper = [{}];
+        result.affaireClipper = [{}];
+        console.log('return:', toJson(result));
+        res.end(toJson(result));
       }
     );
-
-    result.devisClipper = [{}];
-    result.affaireClipper = [{}];
-    console.log('return:', toJson(result));
-    res.end(toJson(result));
   });
 
   app.get('/BC', (req, res) => {
