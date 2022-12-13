@@ -162,6 +162,8 @@ const columnsDevisAlma = [
     label: 'Date',
     headerStyle: 'width: 20%',
     field: 'timestamp__quote_finalization_item',
+    format: (val, row) =>
+      `${val.substring(8, 10)}/${val.substring(5, 7)}/${val.substring(0, 4)}`,
   },
 ];
 
