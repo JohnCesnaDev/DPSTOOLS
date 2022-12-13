@@ -216,7 +216,7 @@ const columnsAffaireClipper = [
     label: 'Devis',
     headerStyle: 'width: 20%',
     field: 'id__quote_finalization_item__quote_finalization',
-    format: (val, row) => (val = val + 10000),
+    format: (val, row) => (val = 1 + val),
   },
   {
     name: 'reference',
