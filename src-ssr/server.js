@@ -67,9 +67,10 @@ export function create(/* { ... } */) {
         REF +
         "%'"
     );
-    result.devisClipper = await pool.query('SELECT * FROM MY_TABLE');
+    //result.devisClipper = await pool.query('SELECT * FROM MY_TABLE');
 
-    console.log('relut = ', result);
+    //console.log('relut = ', result);
+    res.end(toJson(result));
 
     /*
     pool.query(
