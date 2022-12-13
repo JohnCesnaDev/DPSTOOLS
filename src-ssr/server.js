@@ -61,7 +61,7 @@ export function create(/* { ... } */) {
 
     let result = { devisAlma: [], devisClipper: [], affaireClipper: [] };
 
-    result.devisAlma = await pool.query(
+    const devisAlma = await pool.query(
       'SELECT _quote_finalization_item__reference,id__quote_finalization_item__quote_finalization,_quote_finalization_item__franco_unit_cost,_quote_finalization_item__quantity,timestamp__quote_finalization_item FROM "public"."doc__quote_finalization_item" where lower("_quote_finalization_item__reference") like' +
         "'%" +
         REF +
@@ -69,10 +69,8 @@ export function create(/* { ... } */) {
     );
     //result.devisClipper = await pool.query('SELECT * FROM MY_TABLE');
 
-    //console.log('relut = ', result);
-    res.end(toJson(result));
+    console.log('devisAlma = ', devisAlma);
 
-    /*
     pool.query(
       'SELECT _quote_finalization_item__reference,id__quote_finalization_item__quote_finalization,_quote_finalization_item__franco_unit_cost,_quote_finalization_item__quantity,timestamp__quote_finalization_item FROM "public"."doc__quote_finalization_item" where "_quote_finalization_item__reference" like' +
         "'%" +
@@ -86,7 +84,6 @@ export function create(/* { ... } */) {
         res.end(toJson(result));
       }
     );
-  */
   });
 
   app.get('/BC', (req, res) => {

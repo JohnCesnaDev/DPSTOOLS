@@ -664,15 +664,15 @@
   ],
   "node_modules/quasar/src/components/inner-loading/QInnerLoading.js": [
     "/assets/AchatPage.a92ccd62.js",
-    "/assets/DevisPage.58f0030e.css"
+    "/assets/TubePage.60dcbd4d.css"
   ],
   "src/pages/AchatPage.vue?vue&type=style&index=0&lang.sass": [
     "/assets/AchatPage.a92ccd62.js",
-    "/assets/DevisPage.58f0030e.css"
+    "/assets/TubePage.60dcbd4d.css"
   ],
   "src/pages/AchatPage.vue": [
     "/assets/AchatPage.a92ccd62.js",
-    "/assets/DevisPage.58f0030e.css"
+    "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/composables/use-form-child.js": [
     "/assets/QTable.2fa4f5b6.js"
@@ -826,58 +826,58 @@
   ],
   "node_modules/quasar/src/components/badge/QBadge.js": [
     "/assets/DevisPage.16410953.js",
-    "/assets/DevisPage.58f0030e.css"
+    "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/tabs/use-tab.js": [
     "/assets/DevisPage.16410953.js",
-    "/assets/DevisPage.58f0030e.css"
+    "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/tabs/QTab.js": [
     "/assets/DevisPage.16410953.js",
-    "/assets/DevisPage.58f0030e.css"
+    "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/tabs/QTabs.js": [
     "/assets/DevisPage.16410953.js",
-    "/assets/DevisPage.58f0030e.css"
+    "/assets/TubePage.60dcbd4d.css"
   ],
   "src/pages/DevisPage.vue?vue&type=style&index=0&lang.sass": [
     "/assets/DevisPage.16410953.js",
-    "/assets/DevisPage.58f0030e.css"
+    "/assets/TubePage.60dcbd4d.css"
   ],
   "src/pages/DevisPage.vue": [
     "/assets/DevisPage.16410953.js",
-    "/assets/DevisPage.58f0030e.css"
+    "/assets/TubePage.60dcbd4d.css"
   ],
   "src/pages/BLPage.vue": [
     "/assets/BLPage.1901fd7a.js"
   ],
   "node_modules/quasar/src/components/table/QTd.js": [
     "/assets/TubePage.46ea59e5.js",
-    "/assets/DevisPage.58f0030e.css"
+    "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/table/QTr.js": [
     "/assets/TubePage.46ea59e5.js",
-    "/assets/DevisPage.58f0030e.css"
+    "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/card/QCardSection.js": [
     "/assets/TubePage.46ea59e5.js",
-    "/assets/DevisPage.58f0030e.css"
+    "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/card/QCardActions.js": [
     "/assets/TubePage.46ea59e5.js",
-    "/assets/DevisPage.58f0030e.css"
+    "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/directives/ClosePopup.js": [
     "/assets/TubePage.46ea59e5.js",
-    "/assets/DevisPage.58f0030e.css"
+    "/assets/TubePage.60dcbd4d.css"
   ],
   "src/pages/TubePage.vue?vue&type=style&index=0&lang.sass": [
     "/assets/TubePage.46ea59e5.js",
-    "/assets/DevisPage.58f0030e.css"
+    "/assets/TubePage.60dcbd4d.css"
   ],
   "src/pages/TubePage.vue": [
     "/assets/TubePage.46ea59e5.js",
-    "/assets/DevisPage.58f0030e.css"
+    "/assets/TubePage.60dcbd4d.css"
   ],
   "node_modules/quasar/src/components/space/QSpace.js": [
     "/assets/PoidPage.4ea7601a.js",
