@@ -267,11 +267,10 @@ function getDevis() {
         console.log(response.data);
         rows.value = response.data;
         //loading.value = false;
-        /*
-        tabNotifDevisAlma = rows.value.devisAlma.length;
-        tabNotifDevisClipper = rows.value.devisClipper.length;
-        tabNotifAffaireClipper = rows.value.affaireClipper.length;
-        */
+
+        tabNotifDevisAlma.value = rows.value.devisAlma.length;
+        tabNotifDevisClipper.value = rows.value.devisClipper.length;
+        tabNotifAffaireClipper.value = rows.value.affaireClipper.length;
       })
       .catch(function (error) {
         alert(error);
