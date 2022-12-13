@@ -21,38 +21,50 @@
         </q-card>
       </div>
       <div class="row items-start q-gutter-md">
-        <q-card class="shadow-10 q-card--bordered" style="height: 600px">
+        <q-card class="shadow-10 q-card--bordered" style="height: 700px">
           <q-toolbar>
-            <q-toolbar-title> Devis Alma</q-toolbar-title>
+            <q-toolbar-title v-if="tab == 'devisAlma'"
+              >Devis alma</q-toolbar-title
+            >
+            <q-toolbar-title v-if="tab == 'devisClipper'"
+              >Devis clipper</q-toolbar-title
+            >
+            <q-toolbar-title v-if="tab == 'affaireClipper'"
+              >Affaire clipper</q-toolbar-title
+            >
+            <q-tabs v-model="tab" class="text-primary">
+              <q-tab name="devisAlma" icon="mail" label="Devis alma">
+                <q-badge v-if="tabNotifDevisAlma != 0" color="grey" floating>{{
+                  tabNotifDevisAlma
+                }}</q-badge>
+              </q-tab>
+              <q-tab name="devisClipper" icon="alarm" label="Devis clipper">
+                <q-badge
+                  v-if="tabNotifDevisClipper != 0"
+                  color="grey"
+                  floating
+                  >{{ tabNotifDevisClipper }}</q-badge
+                >
+              </q-tab>
+              <q-tab name="affaireClipper" icon="movie" label="Affaire clipper">
+                <q-badge
+                  v-if="tabNotifAffaireClipper != 0"
+                  color="grey"
+                  floating
+                  >{{ tabNotifAffaireClipper }}</q-badge
+                >
+              </q-tab>
+            </q-tabs>
           </q-toolbar>
 
-          <q-table
-            class="my-sticky-header-table"
-            style="margin: 15px; height: 520px; min-width: 500px"
-            flat
-            bordered
-            :rows="rows.devisAlma"
-            :columns="columns"
-            row-key="devis"
-            separator="cell"
-            :rows-per-page-options="[0]"
-            virtual-scroll
-          >
-          </q-table>
-        </q-card>
-
-        <q-card class="shadow-10 q-card--bordered" style="height: 600px">
-          <q-toolbar>
-            <q-toolbar-title> Devis Clipper</q-toolbar-title>
-          </q-toolbar>
-          <div style="margin: 15px">
+          <div v-if="tab == 'devisAlma'" style="margin: 15px">
             <q-table
               class="my-sticky-header-table"
-              style="height: 520px; min-width: 500px"
+              style="height: 590px; min-width: 1024px"
               flat
               bordered
-              :rows="rows.devisClipper"
-              :columns="columns"
+              :rows="rows.devisAlma"
+              :columns="columnsDevisAlma"
               row-key="devis"
               separator="cell"
               :rows-per-page-options="[0]"
@@ -60,19 +72,31 @@
             >
             </q-table>
           </div>
-        </q-card>
-        <q-card class="shadow-10 q-card--bordered" style="height: 600px">
-          <q-toolbar>
-            <q-toolbar-title> Affaire Clipper</q-toolbar-title>
-          </q-toolbar>
-          <div style="margin: 15px">
+
+          <div v-if="tab == 'devisClipper'" style="margin: 15px">
             <q-table
               class="my-sticky-header-table"
-              style="height: 520px; min-width: 500px"
+              style="height: 590px; min-width: 1024px"
+              flat
+              bordered
+              :rows="rows.devisClipper"
+              :columns="columnsDevisClipper"
+              row-key="devis"
+              separator="cell"
+              :rows-per-page-options="[0]"
+              virtual-scroll
+            >
+            </q-table>
+          </div>
+
+          <div v-if="tab == 'affaireClipper'" style="margin: 15px">
+            <q-table
+              class="my-sticky-header-table"
+              style="height: 590px; min-width: 1024px"
               flat
               bordered
               :rows="rows.affaireClipper"
-              :columns="columns"
+              :columns="columnsAffaireClipper"
               row-key="devis"
               separator="cell"
               :rows-per-page-options="[0]"
@@ -87,28 +111,33 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, inject } from 'vue';
 import { api } from 'boot/axios';
 
 //var parametre longueur barre
 const reference = ref('');
+const tab = ref('devisAlma');
+const tabNotifDevisAlma = ref(0);
+const tabNotifDevisClipper = ref(0);
+const tabNotifAffaireClipper = ref(0);
 
 // info colonne tableau
-const columns = [
+const columnsDevisAlma = [
+  {
+    name: 'devis',
+    required: true,
+    align: 'left',
+    label: 'Devis',
+    headerStyle: 'width: 20%',
+    field: 'id__quote_finalization_item__quote_finalization',
+    format: (val, row) => (val = val + 10000),
+  },
   {
     name: 'reference',
     required: true,
     align: 'left',
     label: 'Réference',
     field: (row) => row._quote_finalization_item__reference,
-  },
-  {
-    name: 'id',
-    required: true,
-    align: 'left',
-    label: 'Devis',
-    headerStyle: 'width: 20%',
-    field: 'id__quote_finalization_item__quote_finalization',
   },
   {
     name: 'quantite',
@@ -123,6 +152,100 @@ const columns = [
     required: true,
     align: 'left',
     label: 'Prix',
+    headerStyle: 'width: 20%',
+    field: '_quote_finalization_item__franco_unit_cost',
+  },
+  {
+    name: 'date',
+    required: true,
+    align: 'left',
+    label: 'Date',
+    headerStyle: 'width: 20%',
+    field: 'timestamp__quote_finalization_item',
+  },
+];
+
+const columnsDevisClipper = [
+  {
+    name: 'devis',
+    required: true,
+    align: 'left',
+    label: 'Devis',
+    headerStyle: 'width: 20%',
+    field: 'id__quote_finalization_item__quote_finalization',
+    format: (val, row) => (val = val + 10000),
+  },
+  {
+    name: 'reference',
+    required: true,
+    align: 'left',
+    label: 'Réference',
+    field: (row) => row._quote_finalization_item__reference,
+  },
+  {
+    name: 'quantite',
+    required: true,
+    align: 'left',
+    label: 'Quantité',
+    headerStyle: 'width: 20%',
+    field: '_quote_finalization_item__quantity',
+  },
+  {
+    name: 'prix',
+    required: true,
+    align: 'left',
+    label: 'Prix',
+    headerStyle: 'width: 20%',
+    field: '_quote_finalization_item__franco_unit_cost',
+  },
+  {
+    name: 'date',
+    required: true,
+    align: 'left',
+    label: 'Date',
+    headerStyle: 'width: 20%',
+    field: 'timestamp__quote_finalization_item',
+  },
+];
+
+const columnsAffaireClipper = [
+  {
+    name: 'devis',
+    required: true,
+    align: 'left',
+    label: 'Devis',
+    headerStyle: 'width: 20%',
+    field: 'id__quote_finalization_item__quote_finalization',
+    format: (val, row) => (val = val + 10000),
+  },
+  {
+    name: 'reference',
+    required: true,
+    align: 'left',
+    label: 'Réference',
+    field: (row) => row._quote_finalization_item__reference,
+  },
+  {
+    name: 'quantite',
+    required: true,
+    align: 'left',
+    label: 'Quantité',
+    headerStyle: 'width: 20%',
+    field: '_quote_finalization_item__quantity',
+  },
+  {
+    name: 'prix',
+    required: true,
+    align: 'left',
+    label: 'Prix',
+    headerStyle: 'width: 20%',
+    field: '_quote_finalization_item__franco_unit_cost',
+  },
+  {
+    name: 'date',
+    required: true,
+    align: 'left',
+    label: 'Date',
     headerStyle: 'width: 20%',
     field: 'timestamp__quote_finalization_item',
   },
@@ -144,6 +267,10 @@ function getDevis() {
         console.log(response.data);
         rows.value = response.data;
         //loading.value = false;
+
+        tabNotifDevisAlma = rows.value.devisAlma.length;
+        tabNotifDevisClipper = rows.value.devisClipper.length;
+        tabNotifAffaireClipper = rows.value.affaireClipper.length;
       })
       .catch(function (error) {
         alert(error);

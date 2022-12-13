@@ -54,13 +54,24 @@ export function create(/* { ... } */) {
     password: 'almaC38!',
   });
 
-  app.get('/PG', (req, res) => {
+  app.get('/PG', async (req, res) => {
     console.log('pg: ok');
 
     const REF = req.query.REF;
 
-    let result = { devisAlma: {}, devisClipper: {}, affaireClipper: {} };
+    let result = { devisAlma: [], devisClipper: [], affaireClipper: [] };
 
+    result.devisAlma = await pool.query(
+      'SELECT _quote_finalization_item__reference,id__quote_finalization_item__quote_finalization,_quote_finalization_item__franco_unit_cost,_quote_finalization_item__quantity,timestamp__quote_finalization_item FROM "public"."doc__quote_finalization_item" where lower("_quote_finalization_item__reference") like' +
+        "'%" +
+        REF +
+        "%'"
+    );
+    result.devisClipper = await pool.query('SELECT * FROM MY_TABLE');
+
+    console.log('relut = ', result);
+
+    /*
     pool.query(
       'SELECT _quote_finalization_item__reference,id__quote_finalization_item__quote_finalization,_quote_finalization_item__franco_unit_cost,_quote_finalization_item__quantity,timestamp__quote_finalization_item FROM "public"."doc__quote_finalization_item" where "_quote_finalization_item__reference" like' +
         "'%" +
@@ -70,22 +81,11 @@ export function create(/* { ... } */) {
         if (err) {
           throw err;
         }
-        /*console.log(
-          'queryAlma: SELECT _quote_finalization_item__reference,id__quote_finalization_item__quote_finalization,_quote_finalization_item__franco_unit_cost,_quote_finalization_item__quantity,timestamp__quote_finalization_item FROM "public"."doc__quote_finalization_item" where "_quote_finalization_item__reference" like' +
-            "'%" +
-            REF +
-            "%'"
-        );
-        */
         result.devisAlma = resquery.rows;
-        //console.log('devisAlma:', resquery.rows);
-
-        result.devisClipper = [{}];
-        result.affaireClipper = [{}];
-        console.log('return:', toJson(result));
         res.end(toJson(result));
       }
     );
+  */
   });
 
   app.get('/BC', (req, res) => {
