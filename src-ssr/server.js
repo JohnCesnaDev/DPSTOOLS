@@ -69,7 +69,7 @@ export function create(/* { ... } */) {
     );
     //result.devisClipper = await pool.query('SELECT * FROM MY_TABLE');
 
-    console.log('devisAlma = ', devisAlma);
+    console.log('devisAlma = ', devisAlma.rows);
 
     pool.query(
       'SELECT _quote_finalization_item__reference,id__quote_finalization_item__quote_finalization,_quote_finalization_item__franco_unit_cost,_quote_finalization_item__quantity,timestamp__quote_finalization_item FROM "public"."doc__quote_finalization_item" where lower("_quote_finalization_item__reference") like' +
